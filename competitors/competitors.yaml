@@ -1,0 +1,275 @@
+# Registro concorrenti monitorati dall'agente monitor-concorrenza.
+# tier 1 = concorrenti diretti (produttori italiani/svizzeri fascia media)
+# tier 2 = premium globali presenti in Italia
+# tier 3 = osservati (biomateriali, digitale, low cost)
+# verificato: false = URL/handle da confermare al primo run; l'agente aggiorna il file.
+# Aggiungere un concorrente: copiare un blocco, impostare verificato: false, lanciare /nuovo-competitor.
+
+meta:
+  aggiornato: 2026-11-22
+  cadenza: settimanale
+  fonti_settore:
+    - nome: Odontoiatria33
+      url: https://www.odontoiatria33.it/aziende/
+    - nome: Infodent
+      url: https://www.infodent.it/aziende
+    - nome: Dental Tribune Italia
+      url: https://it.dental-tribune.com/news/
+    - nome: Implant Book
+      url: https://implant-book.com/
+    - nome: Il Dentista Moderno
+      url: https://www.ildentistamoderno.com/
+    - nome: Dentaljournal
+      url: https://www.dentaljournal.it/
+  eventi_da_seguire:
+    - Expodental Meeting (Rimini, maggio)
+    - IDS Colonia (marzo, anni impari)
+    - Congresso SIdP, SIO, SICOI, AIOP, Colloquium Dental, Europerio, AEEDC Dubai
+
+concorrenti:
+  - id: sweden-martina
+    nome: Sweden & Martina
+    tier: 1
+    paese: IT
+    sito: https://www.sweden-martina.com
+    news: https://www.sweden-martina.com/it/news/
+    linkedin: https://www.linkedin.com/company/sweden-martina
+    instagram: https://www.instagram.com/swedenmartina/
+    facebook: https://www.facebook.com/swedenmartina
+    youtube: https://www.youtube.com/@swedenmartina
+    perche: leader italiano implantologia, forte education, premium nazionale
+    verificato: false
+
+  - id: biosafin
+    nome: BioSAFin (Winsix, Biosaf)
+    tier: 1
+    paese: IT
+    sito: https://www.biosafin.com
+    linkedin: https://www.linkedin.com/company/biosafin
+    instagram: https://www.instagram.com/biosafin/
+    facebook: https://www.facebook.com/biosafin
+    perche: produttore italiano, ampia gamma, aggressivo su formazione
+    verificato: false
+
+  - id: bb-dental
+    nome: B&B Dental
+    tier: 1
+    paese: IT
+    sito: https://www.bebdental.it
+    linkedin: https://www.linkedin.com/company/b-b-dental
+    instagram: https://www.instagram.com/bbdental_implant/
+    facebook: https://www.facebook.com/BBDentalImplantCompany
+    perche: implantologia italiana, prezzo competitivo, molto attivo sui social
+    verificato: false
+
+  - id: jdentalcare
+    nome: JDentalCare
+    tier: 1
+    paese: IT
+    sito: https://jdentalcare.com
+    linkedin: https://www.linkedin.com/company/jdentalcare
+    instagram: https://www.instagram.com/jdentalcare/
+    facebook: https://www.facebook.com/JDentalCare
+    youtube: https://www.youtube.com/@JDentalCare
+    perche: Modena, forte export e formazione, comunicazione moderna
+    verificato: false
+
+  - id: biomax
+    nome: Biomax
+    tier: 1
+    paese: IT
+    sito: https://www.biomax.it
+    linkedin: https://www.linkedin.com/company/biomax-spa
+    instagram: https://www.instagram.com/biomaxspa/
+    facebook: https://www.facebook.com/biomaxspa
+    perche: Vicenza, implantologia e biomateriali, forte rete agenti
+    verificato: false
+
+  - id: btk
+    nome: BTK Biotec
+    tier: 1
+    paese: IT
+    sito: https://www.btk.dental
+    linkedin: https://www.linkedin.com/company/btk-biotec
+    instagram: https://www.instagram.com/btk.dental/
+    facebook: https://www.facebook.com/BTKdental
+    perche: Vicenza, implantologia e custom made, digitale
+    verificato: false
+
+  - id: aon
+    nome: AoN Implants
+    tier: 1
+    paese: IT
+    sito: https://www.aonimplants.it
+    linkedin: https://www.linkedin.com/company/aon-implants
+    instagram: https://www.instagram.com/aonimplants/
+    facebook: https://www.facebook.com/aonimplants
+    perche: Grisignano, posizionamento qualità/prezzo simile
+    verificato: false
+
+  - id: idi-evolution
+    nome: IDI Evolution
+    tier: 1
+    paese: IT
+    sito: https://www.idievolution.it
+    linkedin: https://www.linkedin.com/company/idi-evolution
+    instagram: https://www.instagram.com/idievolution/
+    facebook: https://www.facebook.com/idievolution
+    perche: Concorezzo (MB), vicina alla sede di Lissone, forte sul territorio lombardo
+    verificato: false
+
+  - id: dental-tech
+    nome: Dental Tech
+    tier: 1
+    paese: IT
+    sito: https://www.dentaltech.it
+    linkedin: https://www.linkedin.com/company/dental-tech-srl
+    facebook: https://www.facebook.com/dentaltechimplants
+    perche: Misinto (MB), produttore storico
+    verificato: false
+
+  - id: prodent
+    nome: Prodent Italia
+    tier: 1
+    paese: IT
+    sito: https://www.prodentitalia.eu
+    linkedin: https://www.linkedin.com/company/prodent-italia
+    perche: Pero (MI), implantologia italiana
+    verificato: false
+
+  - id: oxy-implant
+    nome: Oxy Implant (Biomec)
+    tier: 1
+    paese: IT
+    sito: https://www.oxyimplant.com
+    linkedin: https://www.linkedin.com/company/oxy-implant
+    instagram: https://www.instagram.com/oxyimplant/
+    perche: Colico (LC), implantologia e protesica
+    verificato: false
+
+  - id: ziacom
+    nome: Ziacom Italia
+    tier: 1
+    paese: ES/IT
+    sito: https://www.ziacom.es/it/
+    linkedin: https://www.linkedin.com/company/ziacom
+    instagram: https://www.instagram.com/ziacom_medical/
+    perche: nel 2025 ha acquisito due aziende italiane, in espansione
+    verificato: false
+
+  - id: thommen
+    nome: Thommen Medical
+    tier: 1
+    paese: CH
+    sito: https://www.thommenmedical.com
+    linkedin: https://www.linkedin.com/company/thommen-medical
+    perche: concorrente Swiss made diretto di iRES
+    verificato: false
+
+  - id: straumann
+    nome: Straumann Italia
+    tier: 2
+    paese: CH
+    sito: https://www.straumann.com/it/it/
+    linkedin: https://www.linkedin.com/company/straumann-group
+    instagram: https://www.instagram.com/straumann/
+    youtube: https://www.youtube.com/@StraumannGroup
+    perche: leader globale, benchmark education e digitale
+    verificato: false
+
+  - id: nobel-biocare
+    nome: Nobel Biocare Italiana (Envista)
+    tier: 2
+    paese: SE/US
+    sito: https://www.nobelbiocare.com/it-it
+    linkedin: https://www.linkedin.com/company/nobel-biocare
+    instagram: https://www.instagram.com/nobelbiocare/
+    perche: premium globale
+    verificato: false
+
+  - id: dentsply-implants
+    nome: Dentsply Sirona Implants (Astra Tech, Xive, MIS)
+    tier: 2
+    paese: US
+    sito: https://www.dentsplysirona.com/it-it/categorie-prodotti/implantologia.html
+    linkedin: https://www.linkedin.com/company/dentsply-sirona
+    perche: premium globale, forte su digitale
+    verificato: false
+
+  - id: zimvie
+    nome: ZimVie (Zimmer Biomet Dental)
+    tier: 2
+    paese: US
+    sito: https://www.zimvie.com
+    linkedin: https://www.linkedin.com/company/zimvie
+    perche: premium globale
+    verificato: false
+
+  - id: camlog
+    nome: Camlog / BioHorizons
+    tier: 2
+    paese: DE/US
+    sito: https://www.camlog.it
+    linkedin: https://www.linkedin.com/company/camlog
+    perche: premium europeo molto presente in Italia
+    verificato: false
+
+  - id: neodent
+    nome: Neodent (Straumann Group)
+    tier: 2
+    paese: BR
+    sito: https://www.neodent.it
+    instagram: https://www.instagram.com/neodent_official/
+    perche: value brand del gruppo Straumann, compete sul prezzo
+    verificato: false
+
+  - id: megagen
+    nome: MegaGen Italia
+    tier: 2
+    paese: KR
+    sito: https://www.megagen.it
+    instagram: https://www.instagram.com/megagenitalia/
+    facebook: https://www.facebook.com/megagenitalia
+    perche: coreano in forte crescita in Italia, marketing aggressivo
+    verificato: false
+
+  - id: osstem
+    nome: Osstem Italia
+    tier: 2
+    paese: KR
+    sito: https://www.osstem.it
+    instagram: https://www.instagram.com/osstemitalia/
+    perche: coreano, volume e formazione
+    verificato: false
+
+  - id: alpha-bio
+    nome: Alpha-Bio Tec
+    tier: 3
+    paese: IL
+    sito: https://www.alpha-bio.net
+    perche: value brand presente tramite distributori
+    verificato: false
+
+  - id: bego
+    nome: BEGO Implant Systems
+    tier: 3
+    paese: DE
+    sito: https://www.bego.com/it/
+    perche: implantologia e CAD-CAM tedesca
+    verificato: false
+
+  - id: tecnoss
+    nome: Tecnoss (OsteoBiol)
+    tier: 3
+    paese: IT
+    sito: https://www.tecnoss.com
+    perche: biomateriali, concorrente della linea rigenerativa iRES
+    verificato: false
+
+  - id: geistlich
+    nome: Geistlich Pharma Italia
+    tier: 3
+    paese: CH
+    sito: https://www.geistlich.it
+    perche: leader biomateriali
+    verificato: false
