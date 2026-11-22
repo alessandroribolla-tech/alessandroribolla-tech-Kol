@@ -82,7 +82,7 @@ flowchart TD
         B3[Performa<br/>CAD-CAM, laboratori, odontotecnici]
     end
 ```
-`*` = agenti proposti (fase 2 e 3), non ancora creati.
+`*` = agenti proposti (fase 2 e 3), non ancora creati. Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net).
 
 ### Matrice agenti × brand
 
