@@ -4,5 +4,5 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SETT="${1:-$(date +%G-W%V)}"
 mkdir -p "$ROOT/output/post-social/$SETT/creativita" "$ROOT/inputs/interazioni/$SETT"
-for d in report-concorrenza piani-editoriali newsletter sito sponsorizzate interazioni report-mensili riepilogo; do mkdir -p "$ROOT/output/$d"; done
+for d in report-concorrenza piani-editoriali newsletter sito cataloghi packaging sponsorizzate risultati riepilogo; do mkdir -p "$ROOT/output/$d"; done
 echo "$SETT"

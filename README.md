@@ -5,38 +5,32 @@ Ogni settimana gli agenti monitorano la concorrenza, propongono il piano editori
 
 ## Avvio rapido
 ```
-/run-settimanale            # ciclo completo della settimana
-/report-concorrenza         # solo monitoraggio concorrenti
-/piano-contenuti            # piano editoriale + post
-/newsletter [--en|--corsi]  # newsletter IT, distributori EN o DEM corsi
-/piano-sponsorizzate        # suggerimenti ads e remarketing
-/review-interazioni         # analisi interazioni e bozze di risposta
-/report-mensile             # KPI e revisione strategia
-/pubblica [analytics]       # programma su Postiz i post approvati / legge analytics
-/nuovo-competitor <nome>    # aggiunge un concorrente
-/contenuto-sito <richiesta> # articolo, landing, pagina
+/run-settimanale                 # ciclo completo: il capo decide, i cinque specialisti eseguono
+/report-concorrenza [--tutti]    # solo monitoraggio concorrenti
+/comunicazione                   # piano editoriale, messaggi, sponsorizzate e remarketing
+/contenuti [--newsletter] [--grafiche]  # post, newsletter, script video, grafiche
+/risultati                       # interazioni, risposte, lead, metriche
+/sito-cataloghi-packaging <richiesta>   # articolo, landing, catalogo, packaging
+/report-mensile                  # KPI del mese e revisione strategia
+/pubblica [analytics]            # programma su Postiz i post approvati / legge analytics
+/nuovo-competitor <nome>         # aggiunge un concorrente
 ```
 Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 
 ## Struttura
 - `CLAUDE.md` regole per gli agenti · `brand/` brief, tono, audience, canali, compliance · `competitors/` registro · `strategy/` strategia, pilastri, KPI
-- `.claude/agents/` 11 agenti specializzati · `.claude/skills/` 10 comandi · `templates/` modelli · `workflows/` runbook
+- `.claude/agents/` 6 agenti · `.claude/skills/` 9 comandi · `templates/` modelli · `workflows/` runbook
 - `inputs/` materiali dall'azienda · `output/` deliverable per settimana ISO
 
-## Agenti
+## I sei agenti
 | Agente | Compito |
 |---|---|
-| orchestratore-marketing | coordina il ciclo settimanale e scrive il riepilogo |
-| monitor-concorrenza | report settimanale su ~75 concorrenti in 3 tier per gruppo e area (siti, LinkedIn, YouTube, news, Ad Library) |
-| strategist | piano editoriale multicanale; revisione mensile della strategia |
-| social-copywriter | post per LinkedIn, Instagram, Facebook, YouTube con brief visivo |
-| newsletter-writer | newsletter quindicinale IT e mensile distributori EN |
-| web-content | articoli SEO, pagine prodotto, landing corsi |
-| ads-planner | sponsorizzate e remarketing con budget e pubblici |
-| community-manager | analisi interazioni, priorità, bozze di risposta, lead per la rete vendita |
-| analyst | report KPI mensile |
-| compliance-reviewer | checklist dispositivi medici, GDPR, policy piattaforme |
-| creative-director | creatività via Canva o brief per il grafico |
+| **capo-marketing** | decide: priorità, brief, delega, controllo qualità e compliance, decisioni, riepilogo |
+| monitor-concorrenza | monitora ~75 concorrenti in 3 tier per gruppo e area (siti, LinkedIn, YouTube, news, Ad Library) |
+| comunicazione | crea la comunicazione: strategia, messaggi chiave, piano editoriale, campagne, sponsorizzate e remarketing |
+| contenuti | crea i contenuti: post, caroselli, script video, newsletter IT/EN, grafiche (Canva) |
+| risultati | monitora i risultati: interazioni e risposte, lead per la rete vendita, metriche, report KPI mensile |
+| sito-cataloghi-packaging | sito e SEO, cataloghi e media kit, packaging ed etichette (brief e checklist regolatoria) |
 
 ## Automazione
 Il run settimanale può essere lanciato a mano (`/run-settimanale`) o da una **attività pianificata** di Claude Code (lunedì mattina) che esegue il ciclo, committa in `output/` e fa push. Vedi `workflows/settimanale.md`.

@@ -17,22 +17,33 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 | `workflows/` | Runbook del ciclo settimanale e mensile. |
 | `templates/` | Modelli per ogni deliverable. |
 | `inputs/` | Materiale fornito dall'azienda: export interazioni social, analytics, listini, foto, calendario corsi. |
-| `output/` | Tutto ciò che gli agenti producono, per settimana ISO (`YYYY-Wnn`). |
-| `.claude/agents/` | Agenti specializzati (subagent). |
-| `.claude/skills/` | Comandi operativi (`/run-settimanale`, `/report-concorrenza`, …). |
+| `output/` | Tutto ciò che gli agenti producono, per settimana ISO (`YYYY-Wnn`); `output/riepilogo/decisioni.md` è il registro delle decisioni del capo. |
+| `.claude/agents/` | Sei agenti: `capo-marketing` (decide), `monitor-concorrenza`, `comunicazione`, `contenuti`, `risultati`, `sito-cataloghi-packaging`. |
+| `.claude/skills/` | Comandi operativi (`/run-settimanale`, `/report-concorrenza`, `/comunicazione`, `/contenuti`, `/risultati`, `/sito-cataloghi-packaging`, `/report-mensile`, `/pubblica`, `/nuovo-competitor`). |
 | `scripts/` | Utility (nuova settimana, stato approvazioni). |
 
+## Chi fa cosa
+| Agente | Ruolo |
+|---|---|
+| `capo-marketing` | **Decide.** Priorità e brief della settimana, delega agli altri cinque, controllo qualità e compliance, decisioni, riepilogo e registro decisioni. Unico che propone all'approvazione umana. |
+| `monitor-concorrenza` | Monitora i concorrenti (`competitors/competitors.yaml`) e produce il report settimanale. |
+| `comunicazione` | Crea la comunicazione: strategia, messaggi chiave, piano editoriale, campagne, sponsorizzate e remarketing, brief newsletter. |
+| `contenuti` | Crea i contenuti: post, caroselli, script video, newsletter, risposte pronte, grafiche. |
+| `risultati` | Monitora i risultati: interazioni e bozze di risposta, lead, metriche settimanali, report KPI mensile. |
+| `sito-cataloghi-packaging` | Sito (contenuti e SEO), cataloghi e media kit, packaging ed etichette (brief e checklist da validare col regolatorio). |
+
 ## Ciclo operativo
-- **Settimanale (lunedì)**: `/run-settimanale` → report concorrenza, piano editoriale, post social, suggerimenti sponsorizzate, review interazioni. Vedi `workflows/settimanale.md`.
-- **Quindicinale**: newsletter (`/newsletter`).
-- **Mensile (primo lunedì)**: `/report-mensile` → KPI, revisione strategia, contenuti sito.
+- **Settimanale (lunedì)**: `/run-settimanale` → il capo decide e fa eseguire concorrenza, risultati, comunicazione, contenuti, sito; controlla; riepiloga. Vedi `workflows/settimanale.md`.
+- **Quindicinale**: newsletter (`/contenuti --newsletter`).
+- **Mensile (primo lunedì)**: `/report-mensile` → KPI, revisione strategia decisa dal capo, contenuti sito, cataloghi/packaging se previsti.
 
 ## Convenzioni
 - Settimana ISO: `date +%G-W%V` (es. `2026-W48`). Ogni run crea `output/<area>/<settimana>/` o `output/<area>/<settimana>.md`.
 - Ogni deliverable ha frontmatter YAML: `brand`, `canale`, `settimana`, `stato` (`bozza` | `in_revisione` | `approvato` | `pubblicato`), `compliance` (`ok` | `da_verificare`).
 - Le fonti dei report concorrenza vanno sempre citate con URL e data di rilevazione.
 - Mai inventare dati (follower, prezzi, date corsi): se non verificabili scrivere `n.d.` e segnalarlo.
-- Gli agenti **non** rispondono mai direttamente sui social: preparano risposte in `output/interazioni/`.
+- Gli agenti **non** rispondono mai direttamente sui social: preparano risposte in `output/risultati/`.
+- Indicazioni della direzione per la settimana in `inputs/direzione.md`: il capo le legge per prime.
 - Commit alla fine di ogni run: `marketing(<settimana>): <cosa>`.
 
 ## Strumenti disponibili e limiti
@@ -42,4 +53,4 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 - Pubblicazione: CLI Postiz (opzionale, vedi skill `pubblica`). Senza Postiz, i post approvati si copiano a mano in Meta Business Suite / LinkedIn.
 
 ## Compliance (riassunto, dettagli in `brand/compliance.md`)
-Gli impianti dentali sono dispositivi medici. Comunicazione promozionale rivolta a professionisti: ok con claim supportati da evidenze. Comunicazione a pazienti: solo informativa/istituzionale, nessun claim clinico, nessun prezzo o promozione su dispositivi. L'agente `compliance-reviewer` deve passare su ogni contenuto prima di `approvato`.
+Gli impianti dentali sono dispositivi medici. Comunicazione promozionale rivolta a professionisti: ok con claim supportati da evidenze. Comunicazione a pazienti: solo informativa/istituzionale, nessun claim clinico, nessun prezzo o promozione su dispositivi. Chi produce un contenuto lo autoverifica con la checklist; il `capo-marketing` lo ricontrolla e decide prima di proporlo all'approvazione.

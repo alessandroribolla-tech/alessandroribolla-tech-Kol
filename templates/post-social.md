@@ -44,4 +44,4 @@ B:
 3.
 
 ## Revisione compliance
-(compilata da compliance-reviewer)
+(autoverifica di `contenuti`, poi `## Note del capo` di `capo-marketing`)

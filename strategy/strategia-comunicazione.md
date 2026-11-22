@@ -64,7 +64,7 @@ Report settimanale (lunedì) su circa 75 concorrenti in 3 tier (15 diretti con c
 - Pubblici: visitatori pagine prodotto/corsi (30-90 gg), iscritti newsletter, lookalike clienti, follower engaged.
 - Campagne always-on: catalogo (lead gen con form), corsi in calendario (conversione), awareness KOL (video view) su LinkedIn/Meta.
 - Targeting professionale (job title, settore, interessi professionali), mai per condizione di salute.
-- L'agente `ads-planner` propone ogni settimana: contenuti da spingere, budget, pubblico, durata, landing. Attivazione solo dopo approvazione.
+- L'agente `comunicazione` propone ogni settimana: contenuti da spingere, budget, pubblico, durata, landing. Attivazione solo dopo approvazione.
 
 ## 8. Governance
 - Lunedì: run settimanale degli agenti → bozze in `output/`.
@@ -74,6 +74,6 @@ Report settimanale (lunedì) su circa 75 concorrenti in 3 tier (15 diretti con c
 - Primo lunedì del mese: report KPI e revisione strategia.
 
 ## 9. Rischi
-- Compliance dispositivi medici: ogni contenuto passa dal `compliance-reviewer`.
+- Compliance dispositivi medici: ogni contenuto è autoverificato da chi lo produce e ricontrollato dal `capo-marketing` prima di proporlo all'approvazione.
 - Dati social dei concorrenti non sempre accessibili: dichiarare sempre la copertura reale del monitoraggio.
 - Dipendenza da materiale interno (foto, casi, calendario corsi): serve un flusso stabile in `inputs/materiali/`.

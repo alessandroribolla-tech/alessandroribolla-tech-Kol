@@ -20,7 +20,7 @@
 
 I social pubblici (Instagram, Facebook) raggiungono anche pazienti: il contenuto di prodotto deve essere chiaramente **rivolto ai professionisti** (es. "Per i professionisti del settore dentale") e privo di inviti all'acquisto da parte del pubblico. La sezione paziente dei siti resta separata.
 
-## Checklist per ogni contenuto (l'agente compliance-reviewer la compila)
+## Checklist per ogni contenuto (la compila chi produce il contenuto in autoverifica; il `capo-marketing` la ricontrolla e decide)
 1. Target esplicito: professionale o paziente?
 2. Ogni claim di prestazione ha fonte (studio, dato interno, IFU)? Riferimento riportato o disponibile?
 3. Niente superlativi assoluti né promesse di risultato.

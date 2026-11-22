@@ -9,6 +9,8 @@ Ogni deliverable ha frontmatter con `stato` (bozza → in_revisione → approvat
 | `newsletter/` | `<SETT>-<lista>.md` |
 | `sito/` | `<SETT>-<slug>.md` |
 | `sponsorizzate/` | `<SETT>.md` |
-| `interazioni/` | `<SETT>.md` |
-| `report-mensili/` | `<YYYY-MM>.md` + `-dati.csv` |
-| `riepilogo/` | `<SETT>.md`, `<SETT>-compliance.md` |
+
+| `risultati/` | `<SETT>.md` settimanale, `<YYYY-MM>.md` + `-dati.csv` mensile |
+| `cataloghi/` | struttura e testi di cataloghi e media kit |
+| `packaging/` | brief e checklist packaging ed etichette |
+| `riepilogo/` | `<SETT>-brief.md` (priorità del capo), `<SETT>.md` (decisioni e cose da approvare), `decisioni.md` (registro cumulativo) |

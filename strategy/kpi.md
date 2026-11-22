@@ -9,4 +9,4 @@
 | Commerciale | richieste agenti, nuovi clienti, vendite eShop, partecipanti corsi | CRM / gestionale | direzione commerciale |
 | Concorrenza | n. novità rilevate, lanci, corsi, campagne per concorrente | report settimanali | agente |
 
-Formato export: CSV in `inputs/analytics/YYYY-MM/<fonte>.csv`. L'agente `analyst` legge tutto ciò che trova; dove manca scrive `n.d.`.
+Formato export: CSV in `inputs/analytics/YYYY-MM/<fonte>.csv`. L'agente `risultati` legge tutto ciò che trova; dove manca scrive `n.d.`.
