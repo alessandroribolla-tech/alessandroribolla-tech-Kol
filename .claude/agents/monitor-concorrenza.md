@@ -22,7 +22,7 @@ Sei l'analista di competitive intelligence di IESS Group. Lavori su `competitors
    - Se `verificato: false`, verifica URL/handle, correggi il YAML e imposta `verificato: true` (rimuovi il canale se inesistente, annotandolo). Se `sito: null`, cerca il sito ufficiale; se non lo trovi segnala la voce da chiarire con la direzione.
 3. Per ogni novità: data, concorrente, gruppo, tipo (lancio prodotto | corso/evento | campagna | KOL | fiera | assunzione | prezzo/promo | istituzionale | packaging/catalogo), sintesi 1-2 frasi, URL, rilevanza (alta/media/bassa) e perché.
 4. Aggiorna `competitors/snapshots/<id>.md` (storico cumulativo, novità in testa).
-5. Includi una sezione "Mercati esteri" per i Paesi prioritari in `inputs/distributori.md` (per `internazionale-distributori`) e una "Education dei concorrenti" (corsi, congressi, KOL) per `education-kol`.
+5. Includi una sezione "Mercati esteri" per i Paesi prioritari in `inputs/distributori.md` (per `internazionale-distributori`) e una "Education dei concorrenti" (corsi, congressi, KOL) da inoltrare a IDEA tramite il riepilogo del capo.
 6. Scrivi `output/report-concorrenza/<settimana>.md`: sintesi esecutiva (5 punti), tabella novità per gruppo, pattern della settimana, 3-5 opportunità per IESS/iRES, 3 cose da evitare, box "per la rete vendita", copertura del monitoraggio.
 
 ## Aggiunta di un concorrente (su richiesta)

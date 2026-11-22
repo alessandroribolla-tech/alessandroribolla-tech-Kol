@@ -21,7 +21,7 @@ Consiglio: **crescere per fasi fino a 10-12 agenti**, un solo capo, agenti per f
 | 1 | `risultati` | interazioni, risposte, lead, KPI | misura e community | tutti |
 | 1 | `sito-cataloghi-packaging` | sito/SEO, cataloghi, packaging | asset durevoli | tutti |
 | **2 (attivi dal 2026-11-22)** | `compliance-regolatorio` | gate indipendente su claim, MDR art. 7, pubblicità al pubblico, GDPR, etichette/UDI; registro claim approvati | per un produttore di dispositivi medici il controllo non può stare solo nel capo: serve un "secondo paio di occhi" con regole proprie e un **registro dei claim approvati** riusabile da tutti | tutti |
-| 2 | `education-kol` | calendario corsi, landing e DEM, relatori, recap, programma KOL, fiere e congressi (Expodental, IDS, AEEDC, SIdP, SIO, EAO), materiali stand | l'education è il principale motore di lead e fidelizzazione del gruppo; i KOL sono la prova scientifica | IESS, iRES |
+| – | ~~`education-kol`~~ | **rimosso il 2026-11-22**: l'education è di IDEA, separata dal marketing. Il marketing pubblica solo i corsi depositati in `inputs/idea/`; fiere e congressi commerciali passano a `comunicazione` | | |
 | 2 | `internazionale-distributori` | contenuti EN/ES/DE/FR/PL, kit distributori (sell-in, listini, visual), newsletter EN, localizzazione dei post, supporto fiere estere, ascolto dei mercati | iRES è un brand internazionale: senza un agente dedicato i contenuti EN restano traduzioni dell'Italia | iRES |
 | 2 | `performance-seo-ads` | SEO tecnico e keyword, Search Console, GA4, gestione proposta campagne Meta/LinkedIn/Google con dati reali, remarketing, test, CPL | separa il "cosa comunicare" (comunicazione) dal "come farlo rendere" (performance); lavora su numeri | tutti |
 | **3 (a regime)** | `video` | script lunghi e brevi, storyboard, brief riprese, montaggio con Descript, voice-over ElevenLabs, sottotitoli, Shorts/Reels da corsi e interviste | YouTube e Reels sono il formato con più leva per casi clinici e KOL | IESS, iRES |
@@ -82,7 +82,7 @@ flowchart TD
         B3[Performa<br/>CAD-CAM, laboratori, odontotecnici]
     end
 ```
-`*` = agenti proposti. Fase 2 (compliance-regolatorio, education-kol, internazionale-distributori, performance-seo-ads) creata il 2026-11-22; restano proposti quelli di fase 3 (video, crm-lead, laboratori-performa, pazienti). Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net), con due pagine: flusso di lavoro e organigramma.
+`*` = agenti proposti. Fase 2 (compliance-regolatorio, internazionale-distributori, performance-seo-ads) creata il 2026-11-22; education-kol rimosso perché l'education è di IDEA; restano proposti quelli di fase 3 (video, crm-lead, laboratori-performa, pazienti). Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net), con due pagine: flusso di lavoro e organigramma.
 
 ### Matrice agenti × brand
 
@@ -208,7 +208,7 @@ Legenda stato: **ok** = già disponibile in questa sessione; **collegare** = con
 | 1 | Autorizzare Canva (brand kit), Firecrawl e Bright Data per le sessioni; indicare piattaforma newsletter, account ads, CRM in `brand/canali.md` | direzione / IT |
 | 1 | Installare e autenticare Postiz con i canali IESS, iRES (e Performa), compilare `inputs/postiz-mappa.yaml` | marketing |
 | 1 | Validare brand brief, profili di brand e compliance; creare `brand/claim-approvati.md` col regolatorio | direzione + regolatorio |
-| 2 | Agenti di fase 2 creati; compilare `inputs/materiali/kol.md`, `inputs/distributori.md`, validare `brand/claim-approvati.md` | marketing + regolatorio |
+| 2 | Agenti di fase 2 creati; far compilare a IDEA `inputs/idea/calendario-corsi.md`, compilare `inputs/distributori.md`, validare `brand/claim-approvati.md` | marketing + IDEA + regolatorio |
 | 2 | Primo export GA4, Search Console, Meta, LinkedIn in `inputs/analytics/` per la baseline KPI | marketing |
 | 3-4 | Pixel Meta, LinkedIn Insight Tag, GA4 con consenso cookie sui tre siti; pagina LinkedIn iRES; certificato TLS geass.it | web agency / IT |
 | 5-8 | Fase 3 (`video`, `crm-lead`, `laboratori-performa`, `pazienti`) in base ai risultati dei primi report | capo + direzione |

@@ -4,7 +4,7 @@ Qui si depositano i materiali che gli agenti non possono procurarsi da soli. Tut
 
 | Cartella | Contenuto | Cadenza |
 |---|---|---|
-| `materiali/calendario-corsi.md` | date, titoli, relatori, sedi, link dei corsi | mensile |
+| `idea/calendario-corsi.md` | corsi IDEA da pubblicare, compilati da IDEA (education separata dal marketing) | mensile, a cura di IDEA |
 | `materiali/lanci.md` | novità prodotto, date, claim approvati dal regolatorio | quando serve |
 | `materiali/foto-video/` | asset con liberatoria (suffisso `_ok`) | continuo |
 | `materiali/casi/` | casi clinici con consenso informato (PDF o nota) | continuo |

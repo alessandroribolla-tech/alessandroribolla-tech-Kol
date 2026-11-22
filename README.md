@@ -5,10 +5,9 @@ Ogni settimana gli agenti monitorano la concorrenza, propongono il piano editori
 
 ## Avvio rapido
 ```
-/run-settimanale                 # ciclo completo: il capo decide, i nove specialisti eseguono
+/run-settimanale                 # ciclo completo: il capo decide, gli otto specialisti eseguono
 /report-concorrenza [--tutti]    # monitoraggio concorrenti
 /risultati                       # interazioni, risposte, lead, metriche
-/education                       # agenda corsi, promozione, KOL, fiere
 /comunicazione                   # piano editoriale, messaggi, brief campagne
 /performance [--mensile]         # sponsorizzate, remarketing, budget, SEO, tracciamento
 /internazionale [--newsletter|--kit X]  # versioni in lingua, newsletter e kit distributori
@@ -23,17 +22,16 @@ Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 
 ## Struttura
 - `CLAUDE.md` regole per gli agenti · `brand/` brief, tono, audience, canali, compliance · `competitors/` registro · `strategy/` strategia, pilastri, KPI
-- `.claude/agents/` 10 agenti · `.claude/skills/` 13 comandi · `templates/` modelli · `workflows/` runbook
+- `.claude/agents/` 9 agenti · `.claude/skills/` 12 comandi · `templates/` modelli · `workflows/` runbook
 - `inputs/` materiali dall'azienda · `output/` deliverable per settimana ISO
 
-## I dieci agenti
+## I nove agenti
 | Fase | Agente | Compito |
 |---|---|---|
 | decide | **capo-marketing** | priorità, brief, delega, decisioni, riepilogo, registro decisioni |
 | osservare | monitor-concorrenza | ~75 concorrenti in 3 tier per gruppo e area |
 | osservare | risultati | interazioni e risposte, lead, metriche, KPI mensile |
-| osservare | education-kol | agenda corsi, promozione, landing e DEM, recap, KOL, fiere e congressi |
-| progettare | comunicazione | strategia, messaggi chiave, piano editoriale, brief campagne e newsletter |
+| progettare | comunicazione | strategia, messaggi chiave, piano editoriale (fiere, corsi IDEA pubblicabili), brief campagne e newsletter |
 | progettare | performance-seo-ads | sponsorizzate, remarketing, budget, SEO, tracciamento, report campagne |
 | progettare | internazionale-distributori | versioni EN/ES/DE/FR/PL, newsletter e kit distributori, mercati esteri |
 | produrre | contenuti | post, caroselli, script video, newsletter IT, grafiche |
@@ -41,14 +39,14 @@ Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 | controllare | compliance-regolatorio | gate indipendente MDR/GDPR/policy, registro claim approvati |
 
 ## Proposta di crescita del team e stack strumenti
-Vedi `docs/team-agenti-e-strumenti.md`: valutazione (10 agenti attivi, fase 3 da attivare a regime), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
+Vedi `docs/team-agenti-e-strumenti.md`: valutazione (9 agenti attivi, fase 3 da attivare a regime; education separata in IDEA), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
 
 ## Automazione
 Il run settimanale può essere lanciato a mano (`/run-settimanale`) o da una **attività pianificata** di Claude Code (lunedì mattina) che esegue il ciclo, committa in `output/` e fa push. Vedi `workflows/settimanale.md`.
 
 ## Prima configurazione (da fare una volta)
 1. Validare `brand/brand-brief.md` e `brand/compliance.md` con direzione e regolatorio.
-2. Compilare `inputs/materiali/calendario-corsi.md` e `inputs/materiali/lanci.md`.
+2. Far compilare a IDEA `inputs/idea/calendario-corsi.md`; compilare `inputs/materiali/lanci.md`.
 3. Indicare piattaforma newsletter e account ads in `brand/canali.md`.
 4. (Opzionale) collegare Postiz: `npm install -g postiz && postiz auth:login`, poi compilare `inputs/postiz-mappa.yaml`.
 5. Lanciare `/report-concorrenza --tutti` per il primo censimento dei concorrenti (verifica URL e handle).

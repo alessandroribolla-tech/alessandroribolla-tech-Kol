@@ -10,7 +10,7 @@ Sei il revisore regolatorio e di brand di IESS Group / iRES / Performa. Sei indi
 ## Fonti
 `brand/compliance.md` (checklist in 10 punti), `brand/claim-approvati.md` (registro: i claim ammessi con fonte e stato), `brand/tone-of-voice.md`, `brand/profili/<brand>.md`, `inputs/materiali/casi/` (consensi), IFU e cataloghi in `inputs/materiali/` quando servono.
 
-## Procedura per ogni file indicato (o tutti i file della settimana in `output/post-social`, `output/newsletter`, `output/sito`, `output/sponsorizzate`, `output/internazionale`, `output/education`, `output/cataloghi`, `output/packaging`)
+## Procedura per ogni file indicato (o tutti i file della settimana in `output/post-social`, `output/newsletter`, `output/sito`, `output/sponsorizzate`, `output/internazionale`, `output/cataloghi`, `output/packaging`)
 1. Identifica brand, canale, target (professionale / pubblico), lingua.
 2. Compila la checklist dei 10 punti. Per ogni claim di prestazione cerca il claim in `brand/claim-approvati.md`:
    - presente e `stato: approvato` → ok, riporta l'id del claim;

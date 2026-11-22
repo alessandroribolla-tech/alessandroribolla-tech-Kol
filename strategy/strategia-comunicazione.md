@@ -11,7 +11,7 @@ aggiornato: 2026-11-22
 1. Crescere nelle vendite di sistematiche implantari in Italia (fidelizzazione clienti Geass/iRES + acquisizione giovani odontoiatri).
 2. Aumentare il cross-selling della gamma (protesica, digitale, Performa, prodotti per il mantenimento).
 3. Sostenere l'export iRES con contenuti per i distributori (EN).
-4. Riempire i corsi del calendario Education.
+4. Dare visibilità ai corsi IDEA (education separata: il marketing li pubblica, IDEA li gestisce).
 
 ## 2. Obiettivi di comunicazione (12 mesi, target da validare)
 | Obiettivo | KPI | Baseline | Target |
@@ -35,8 +35,8 @@ Messaggi chiave per audience:
 
 ## 4. Pilastri di contenuto (dettaglio in `pilastri-contenuto.md`)
 1. **Scienza & casi clinici** (30 %)
-2. **Education & eventi** (25 %)
-3. **Prodotto & tecnologia** (20 %)
+2. **Corsi IDEA & eventi** (20 %)
+3. **Prodotto & tecnologia** (25 %)
 4. **Dietro le quinte & persone** (15 %): produzione a Mendrisio e Pozzuolo, team, agenti, qualità
 5. **Mercato & cultura dentale** (10 %): trend, normativa, curiosità per la community
 
