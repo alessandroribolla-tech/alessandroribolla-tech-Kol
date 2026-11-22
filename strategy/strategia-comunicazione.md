@@ -58,7 +58,7 @@ Azioni strutturali consigliate:
 - Portare la newsletter su una piattaforma con segmentazione (clienti / prospect / distributori EN / partecipanti corsi).
 
 ## 6. Monitoraggio concorrenza
-Report settimanale (lunedì) su 25 concorrenti in 3 tier: novità, lanci, corsi, campagne, fiere, assunzioni. Output: cosa copiare, cosa evitare, opportunità di contenuto, segnali per la rete vendita.
+Report settimanale (lunedì) su circa 75 concorrenti in 3 tier (15 diretti con controllo completo, 25 globali in sintesi, 35 osservati mensilmente), raggruppati per gruppo societario e area geografica: novità, lanci, corsi, campagne, fiere, assunzioni. Output: cosa copiare, cosa evitare, opportunità di contenuto, segnali per la rete vendita.
 
 ## 7. Remarketing e sponsorizzate (impostazione)
 - Pubblici: visitatori pagine prodotto/corsi (30-90 gg), iscritti newsletter, lookalike clienti, follower engaged.

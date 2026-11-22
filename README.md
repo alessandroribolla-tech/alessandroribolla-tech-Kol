@@ -27,7 +27,7 @@ Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 | Agente | Compito |
 |---|---|
 | orchestratore-marketing | coordina il ciclo settimanale e scrive il riepilogo |
-| monitor-concorrenza | report settimanale su 25 concorrenti (siti, LinkedIn, YouTube, news, Ad Library) |
+| monitor-concorrenza | report settimanale su ~75 concorrenti in 3 tier per gruppo e area (siti, LinkedIn, YouTube, news, Ad Library) |
 | strategist | piano editoriale multicanale; revisione mensile della strategia |
 | social-copywriter | post per LinkedIn, Instagram, Facebook, YouTube con brief visivo |
 | newsletter-writer | newsletter quindicinale IT e mensile distributori EN |
