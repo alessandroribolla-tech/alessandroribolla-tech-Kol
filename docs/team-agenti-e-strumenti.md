@@ -82,7 +82,7 @@ flowchart TD
         B3[Performa<br/>CAD-CAM, laboratori, odontotecnici]
     end
 ```
-`*` = agenti proposti. Fase 2 (compliance-regolatorio, education-kol, internazionale-distributori, performance-seo-ads) creata il 2026-11-22; restano proposti quelli di fase 3 (video, crm-lead, laboratori-performa, pazienti). Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net).
+`*` = agenti proposti. Fase 2 (compliance-regolatorio, education-kol, internazionale-distributori, performance-seo-ads) creata il 2026-11-22; restano proposti quelli di fase 3 (video, crm-lead, laboratori-performa, pazienti). Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net), con due pagine: flusso di lavoro e organigramma.
 
 ### Matrice agenti × brand
 
