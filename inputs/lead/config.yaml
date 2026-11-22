@@ -1,0 +1,16 @@
+# Configurazione raccolta lead (compilare)
+gmail:
+  abilitato: false            # true quando la casella collegata riceve i lead (info@iess.dental, info@ires.dental o inoltri)
+  query:
+    - "label:lead newer_than:7d"
+    - "subject:(richiesta OR informazioni OR catalogo OR preventivo) newer_than:7d"
+form_sito:
+  cartella: inputs/lead/<SETT>/    # export CSV dei form di iess.dental, ires.dental, performa.dental
+eshop:
+  cartella: inputs/lead/<SETT>/    # ordini, carrelli abbandonati, nuovi account
+corsi_idea:
+  cartella: inputs/lead/<SETT>/    # iscrizioni fornite da IDEA (solo per assegnazione commerciale post-corso)
+arricchimento: false              # true per abilitare Firecrawl people_company_enrich sui lead caldi (a pagamento)
+sla_ore:
+  caldo: 24
+  tiepido: 48

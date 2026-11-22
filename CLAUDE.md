@@ -18,14 +18,14 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 | `templates/` | Modelli per ogni deliverable. |
 | `inputs/` | Materiale fornito dall'azienda: export interazioni social, analytics, listini, foto; `inputs/idea/` è l'unica interfaccia con IDEA (education), che resta separata dal marketing. |
 | `output/` | Tutto ciò che gli agenti producono, per settimana ISO (`YYYY-Wnn`); `output/riepilogo/decisioni.md` è il registro delle decisioni del capo. |
-| `.claude/agents/` | Nove agenti: `capo-marketing` (decide) e otto specialisti (vedi "Chi fa cosa"). |
-| `.claude/skills/` | Comandi operativi (`/run-settimanale`, `/report-concorrenza`, `/risultati`, `/comunicazione`, `/performance`, `/internazionale`, `/contenuti`, `/sito-cataloghi-packaging`, `/compliance`, `/report-mensile`, `/pubblica`, `/nuovo-competitor`). |
+| `.claude/agents/` | Dieci agenti: `capo-marketing` (decide) e nove specialisti (vedi "Chi fa cosa"). |
+| `.claude/skills/` | Comandi operativi (`/run-settimanale`, `/report-concorrenza`, `/risultati`, `/comunicazione`, `/performance`, `/internazionale`, `/contenuti`, `/sito-cataloghi-packaging`, `/lead`, `/compliance`, `/report-mensile`, `/pubblica`, `/nuovo-competitor`). |
 | `scripts/` | Utility (nuova settimana, stato approvazioni). |
 
 ## Chi fa cosa
 | Agente | Ruolo |
 |---|---|
-| `capo-marketing` | **Decide.** Priorità e brief della settimana, delega agli otto specialisti, legge gli esiti di compliance, decide, riepiloga, tiene il registro decisioni. Unico che propone all'approvazione umana. |
+| `capo-marketing` | **Decide.** Priorità e brief della settimana, delega ai nove specialisti, legge gli esiti di compliance, decide, riepiloga, tiene il registro decisioni. Unico che propone all'approvazione umana. |
 | `monitor-concorrenza` | Osserva i concorrenti (`competitors/competitors.yaml`) e produce il report settimanale. |
 | `risultati` | Osserva i risultati: interazioni e bozze di risposta, lead, metriche settimanali, report KPI mensile. |
 | `comunicazione` | Progetta la comunicazione: strategia, messaggi chiave, piano editoriale (incluse fiere e congressi commerciali e la rubrica con i corsi IDEA pubblicabili), brief campagne e newsletter, candidati al budget, slot in lingua. |
@@ -33,10 +33,11 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 | `internazionale-distributori` | Progetta e produce per i mercati iRES: versioni EN/ES/DE/FR/PL, newsletter distributori, kit distributore, ascolto mercati. |
 | `contenuti` | Produce i contenuti IT: post, caroselli, script video, newsletter, risposte pronte, grafiche. |
 | `sito-cataloghi-packaging` | Produce sito (contenuti), cataloghi e media kit, brief e checklist packaging ed etichette. |
+| `crm-lead` | Chiude: raccoglie i lead da social, email, form, eShop, corsi e fiere; qualifica, assegna all'agente di zona, prepara bozze (Gmail draft, mai invio) e sequenze; registro lead e follow-up. |
 | `compliance-regolatorio` | Controlla, indipendente: ogni contenuto contro MDR, pubblicità al pubblico, GDPR, policy piattaforme; gestisce `brand/claim-approvati.md`. |
 
 ## Ciclo operativo
-- **Settimanale (lunedì)**: `/run-settimanale` → il capo decide; osservare (concorrenza, risultati); progettare (comunicazione, performance, internazionale); produrre (contenuti, sito, lingue); controllare (compliance); riepilogo. Vedi `workflows/settimanale.md`.
+- **Settimanale (lunedì)**: `/run-settimanale` → il capo decide; osservare (concorrenza, risultati); progettare (comunicazione, performance, internazionale); produrre (contenuti, sito, lingue); chiudere (lead); controllare (compliance); riepilogo. Vedi `workflows/settimanale.md`.
 - **Quindicinale**: newsletter (`/contenuti --newsletter`).
 - **Mensile (primo lunedì)**: `/report-mensile` → KPI, report campagne e SEO, newsletter distributori, revisione strategia decisa dal capo, contenuti sito, cataloghi/packaging se previsti.
 
@@ -45,7 +46,7 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 - Ogni deliverable ha frontmatter YAML: `brand`, `canale`, `settimana`, `stato` (`bozza` | `in_revisione` | `approvato` | `pubblicato`), `compliance` (`ok` | `da_verificare`).
 - Le fonti dei report concorrenza vanno sempre citate con URL e data di rilevazione.
 - Mai inventare dati (follower, prezzi, date corsi): se non verificabili scrivere `n.d.` e segnalarlo.
-- Gli agenti **non** rispondono mai direttamente sui social: preparano risposte in `output/risultati/`.
+- Gli agenti **non** rispondono mai direttamente sui social e **non** inviano email: preparano risposte in `output/risultati/` e `output/lead/` (bozze Gmail al massimo).
 - Indicazioni della direzione per la settimana in `inputs/direzione.md`: il capo le legge per prime.
 - **IDEA (education) è separata dal marketing.** Il marketing non progetta corsi, landing, DEM, recap, KOL: pubblica solo i corsi che IDEA deposita completi in `inputs/idea/calendario-corsi.md`, con i soli dati forniti.
 - Commit alla fine di ogni run: `marketing(<settimana>): <cosa>`.

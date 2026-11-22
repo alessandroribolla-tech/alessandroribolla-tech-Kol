@@ -15,5 +15,6 @@ Ogni deliverable ha frontmatter con `stato` (bozza → in_revisione → approvat
 | `packaging/` | brief e checklist packaging ed etichette |
 | `education/` | `<SETT>.md` agenda e piani corsi, landing, recap |
 | `internazionale/<SETT>/` | versioni in lingua; `<YYYY-MM>-newsletter-distributori.md`; `kit-<slug>.md` |
+| `lead/` | `<SETT>.md` lead, assegnazioni, bozze, follow-up; `registro-lead.csv` storico senza dati di contatto |
 | `performance/` | `<SETT>-seo.md`, `<YYYY-MM>.md` report campagne |
 | `riepilogo/` | `<SETT>-brief.md` (priorità del capo), `<SETT>.md` (decisioni e cose da approvare), `decisioni.md` (registro cumulativo), `<SETT>-compliance.md` (esiti del revisore) |

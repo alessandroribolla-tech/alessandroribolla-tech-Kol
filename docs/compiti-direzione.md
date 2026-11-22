@@ -5,7 +5,7 @@ Gli agenti producono bozze; tu decidi, fornisci i dati che loro non possono aver
 ## Una volta sola (prima settimana)
 1. **Validare i documenti di brand**: `brand/brand-brief.md`, `brand/profili/*.md`, `brand/tone-of-voice.md`, `brand/audiences.md`. Correggere i punti marcati [verificare].
 2. **Validare la compliance col regolatorio**: `brand/compliance.md` e `brand/claim-approvati.md` (portare i 9 claim iniziali ad approvato o respinto, aggiungere fonti).
-3. **Compilare gli input**: `inputs/materiali/lanci.md`, `inputs/distributori.md`; chiedere a IDEA di compilare `inputs/idea/calendario-corsi.md` (unica interfaccia: il marketing pubblica solo i corsi completi); indicare piattaforma newsletter, account ads e CRM in `brand/canali.md`.
+3. **Compilare gli input**: `inputs/materiali/lanci.md`, `inputs/distributori.md`, `inputs/rete-vendita.md` (agenti per zona) e `inputs/lead/config.yaml` (fonti lead, Gmail); chiedere a IDEA di compilare `inputs/idea/calendario-corsi.md` (unica interfaccia: il marketing pubblica solo i corsi completi); indicare piattaforma newsletter, account ads e CRM in `brand/canali.md`.
 4. **Caricare materiali**: foto/video con liberatoria in `inputs/materiali/foto-video/` (suffisso `_ok`), casi clinici con consenso in `inputs/materiali/casi/`.
 5. **Collegare gli strumenti**: Postiz (`npm install -g postiz && postiz auth:login`, poi `inputs/postiz-mappa.yaml`), Canva Pro con brand kit, Firecrawl e Bright Data autorizzati; far installare Meta Pixel, LinkedIn Insight Tag e GA4 con consenso cookie; sistemare il certificato TLS di geass.it; creare la pagina LinkedIn iRES.
 6. **Confermare i concorrenti**: chiarire Kalodont, Medsolaris e Dentcon (nome esatto, sito) in `competitors/competitors.yaml`; spostare di tier chi vuoi.
@@ -19,7 +19,7 @@ Gli agenti producono bozze; tu decidi, fornisci i dati che loro non possono aver
 | Lunedì | Validare o respingere i claim nuovi proposti dal revisore (o girarli al regolatorio) | `brand/claim-approvati.md` | 10 min |
 | Martedì | Programmare i post approvati (`/pubblica` su Postiz o copia manuale) e passare i brief visivi al grafico | `output/post-social/<SETT>/` | 20 min |
 | Mercoledì | Attivare le sponsorizzate approvate con il budget deciso | `output/sponsorizzate/<SETT>.md` → Meta/LinkedIn/Google | 20 min |
-| Venerdì | Esportare interazioni e metriche (Meta Business Suite, LinkedIn, YouTube) e lanciare `/risultati`; inviare le risposte approvate | `inputs/interazioni/<SETT>/` | 20 min |
+| Venerdì | Esportare interazioni e metriche (Meta Business Suite, LinkedIn, YouTube) e lanciare `/risultati` poi `/lead`; inviare le risposte approvate; confermare le assegnazioni agli agenti e inviare le bozze Gmail | `inputs/interazioni/<SETT>/`, `inputs/lead/<SETT>/`, Gmail bozze | 30 min |
 | Settimane pari | Approvare la newsletter e inviarla dalla piattaforma email | `output/newsletter/` | 15 min |
 
 ## Ogni mese (primo lunedì)

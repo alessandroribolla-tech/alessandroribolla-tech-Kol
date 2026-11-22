@@ -4,3 +4,6 @@ inputs/analytics/**/*.csv
 inputs/materiali/foto-video/
 inputs/materiali/casi/
 .DS_Store
+inputs/crm/*.csv
+inputs/lead/**/*.csv
+inputs/lead/**/*.xlsx

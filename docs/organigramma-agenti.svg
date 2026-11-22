@@ -32,7 +32,7 @@
 <line x1="636" y1="722.0" x2="650" y2="722.0" stroke="#F0B48A" stroke-width="1.5" stroke-dasharray="6,4"/>
 <line x1="916" y1="350" x2="916" y2="494.0" stroke="#EBA3A3" stroke-width="1.5"/>
 <line x1="916" y1="418.0" x2="930" y2="418.0" stroke="#EBA3A3" stroke-width="1.5"/>
-<line x1="916" y1="494.0" x2="930" y2="494.0" stroke="#EBA3A3" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="916" y1="494.0" x2="930" y2="494.0" stroke="#EBA3A3" stroke-width="1.5"/>
 <line x1="290" y1="588.0" x2="330" y2="588.0" stroke="#B8C0CC" stroke-width="1.5" stroke-dasharray="6,4"/>
 <line x1="330" y1="588.0" x2="330" y2="428.0" stroke="#B8C0CC" stroke-width="1.5" stroke-dasharray="6,4"/>
 <line x1="330" y1="428.0" x2="370" y2="428.0" stroke="#B8C0CC" stroke-width="1.5" stroke-dasharray="6,4"/>
@@ -84,9 +84,9 @@
 <rect x="930" y="390" width="200" height="56" rx="8" fill="#FFFFFF" stroke="#EBA3A3" stroke-width="1.5"/>
 <text x="1030.0" y="414.0" text-anchor="middle" font-size="14" fill="#1B1F24">compliance-regolatorio</text>
 <text x="1030.0" y="431.0" text-anchor="middle" font-size="10" fill="#1B1F24" opacity="0.85">MDR · GDPR · registro claim</text>
-<rect x="930" y="466" width="200" height="56" rx="8" fill="#FFFFFF" stroke="#EBA3A3" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="930" y="466" width="200" height="56" rx="8" fill="#FFFFFF" stroke="#EBA3A3" stroke-width="1.5"/>
 <text x="1030.0" y="490.0" text-anchor="middle" font-size="14" fill="#1B1F24">crm-lead</text>
-<text x="1030.0" y="507.0" text-anchor="middle" font-size="10" fill="#1B1F24" opacity="0.85">lead → rete vendita · eShop</text>
+<text x="1030.0" y="507.0" text-anchor="middle" font-size="10" fill="#1B1F24" opacity="0.85">lead · Gmail · form · eShop · sequenze</text>
 <rect x="90" y="560" width="200" height="56" rx="8" fill="#F7F8FA" stroke="#B8C0CC" stroke-width="1.5" stroke-dasharray="6,4"/>
 <text x="190.0" y="584.0" text-anchor="middle" font-size="14" fill="#5A626E">IDEA (education)</text>
 <text x="190.0" y="601.0" text-anchor="middle" font-size="10" fill="#5A626E" opacity="0.85">separata dal marketing · fornisce il calendario corsi</text>

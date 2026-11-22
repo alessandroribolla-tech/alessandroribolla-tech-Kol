@@ -5,7 +5,7 @@ Ogni settimana gli agenti monitorano la concorrenza, propongono il piano editori
 
 ## Avvio rapido
 ```
-/run-settimanale                 # ciclo completo: il capo decide, gli otto specialisti eseguono
+/run-settimanale                 # ciclo completo: il capo decide, i nove specialisti eseguono
 /report-concorrenza [--tutti]    # monitoraggio concorrenti
 /risultati                       # interazioni, risposte, lead, metriche
 /comunicazione                   # piano editoriale, messaggi, brief campagne
@@ -13,6 +13,7 @@ Ogni settimana gli agenti monitorano la concorrenza, propongono il piano editori
 /internazionale [--newsletter|--kit X]  # versioni in lingua, newsletter e kit distributori
 /contenuti [--newsletter] [--grafiche]  # post, newsletter, script video, grafiche
 /sito-cataloghi-packaging <richiesta>   # articolo, landing, catalogo, packaging
+/lead [--sequenza X]             # lead: qualifica, assegnazione, bozze, follow-up, sequenze
 /compliance [file]               # verifica indipendente e registro claim
 /report-mensile                  # KPI, campagne, revisione strategia
 /pubblica [analytics]            # Postiz: programma i post approvati / legge analytics
@@ -22,10 +23,10 @@ Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 
 ## Struttura
 - `CLAUDE.md` regole per gli agenti · `brand/` brief, tono, audience, canali, compliance · `competitors/` registro · `strategy/` strategia, pilastri, KPI
-- `.claude/agents/` 9 agenti · `.claude/skills/` 12 comandi · `templates/` modelli · `workflows/` runbook
+- `.claude/agents/` 10 agenti · `.claude/skills/` 13 comandi · `templates/` modelli · `workflows/` runbook
 - `inputs/` materiali dall'azienda · `output/` deliverable per settimana ISO
 
-## I nove agenti
+## I dieci agenti
 | Fase | Agente | Compito |
 |---|---|---|
 | decide | **capo-marketing** | priorità, brief, delega, decisioni, riepilogo, registro decisioni |
@@ -36,10 +37,11 @@ Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 | progettare | internazionale-distributori | versioni EN/ES/DE/FR/PL, newsletter e kit distributori, mercati esteri |
 | produrre | contenuti | post, caroselli, script video, newsletter IT, grafiche |
 | produrre | sito-cataloghi-packaging | sito, cataloghi e media kit, packaging ed etichette |
+| chiudere | crm-lead | lead da social, email, form, eShop, corsi, fiere: qualifica, assegnazione, bozze, sequenze, registro e follow-up |
 | controllare | compliance-regolatorio | gate indipendente MDR/GDPR/policy, registro claim approvati |
 
 ## Proposta di crescita del team e stack strumenti
-Vedi `docs/team-agenti-e-strumenti.md`: valutazione (9 agenti attivi, fase 3 da attivare a regime; education separata in IDEA), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
+Vedi `docs/team-agenti-e-strumenti.md`: valutazione (10 agenti attivi; restano proposti video, laboratori-performa, pazienti; education separata in IDEA), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
 
 ## Automazione
 Il run settimanale può essere lanciato a mano (`/run-settimanale`) o da una **attività pianificata** di Claude Code (lunedì mattina) che esegue il ciclo, committa in `output/` e fa push. Vedi `workflows/settimanale.md`.

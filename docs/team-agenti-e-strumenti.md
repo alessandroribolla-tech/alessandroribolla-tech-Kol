@@ -25,7 +25,7 @@ Consiglio: **crescere per fasi fino a 10-12 agenti**, un solo capo, agenti per f
 | 2 | `internazionale-distributori` | contenuti EN/ES/DE/FR/PL, kit distributori (sell-in, listini, visual), newsletter EN, localizzazione dei post, supporto fiere estere, ascolto dei mercati | iRES è un brand internazionale: senza un agente dedicato i contenuti EN restano traduzioni dell'Italia | iRES |
 | 2 | `performance-seo-ads` | SEO tecnico e keyword, Search Console, GA4, gestione proposta campagne Meta/LinkedIn/Google con dati reali, remarketing, test, CPL | separa il "cosa comunicare" (comunicazione) dal "come farlo rendere" (performance); lavora su numeri | tutti |
 | **3 (a regime)** | `video` | script lunghi e brevi, storyboard, brief riprese, montaggio con Descript, voice-over ElevenLabs, sottotitoli, Shorts/Reels da corsi e interviste | YouTube e Reels sono il formato con più leva per casi clinici e KOL | IESS, iRES |
-| 3 | `crm-lead` | qualifica e instradamento lead alla rete vendita, sequenze email post-corso e post-download, promozioni eShop ai clienti, riattivazione | chiude il cerchio tra marketing e vendite | iRES (eShop), IESS |
+| **3 (attivo dal 2026-11-22)** | `crm-lead` | lead da social, Gmail, form, eShop, corsi, fiere; qualifica con punteggio, assegnazione all'agente di zona, bozze Gmail, sequenze post-corso/post-download/riattivazione, registro e follow-up | chiude il cerchio tra marketing e vendite | iRES (eShop), IESS |
 | 3 | `laboratori-performa` | contenuti per odontotecnici, tutorial CAD-CAM, librerie, tempi e servizi Performa, co-marketing con i laboratori | Performa parla a un pubblico diverso (laboratorio) con linguaggio e canali propri | Performa |
 | 3 | `pazienti` | area paziente dei siti, FAQ, SEO informativa, materiali per lo studio (locandine, leaflet "chiedi al tuo dentista") | crea domanda verso gli studi clienti, nel rispetto del divieto di pubblicità al pubblico | IESS, iRES |
 
@@ -82,7 +82,7 @@ flowchart TD
         B3[Performa<br/>CAD-CAM, laboratori, odontotecnici]
     end
 ```
-`*` = agenti proposti. Fase 2 (compliance-regolatorio, internazionale-distributori, performance-seo-ads) creata il 2026-11-22; education-kol rimosso perché l'education è di IDEA; restano proposti quelli di fase 3 (video, crm-lead, laboratori-performa, pazienti). Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net), con due pagine: flusso di lavoro e organigramma.
+`*` = agenti proposti. Fase 2 (compliance-regolatorio, internazionale-distributori, performance-seo-ads) creata il 2026-11-22; education-kol rimosso perché l'education è di IDEA; crm-lead creato il 2026-11-22; restano proposti video, laboratori-performa e pazienti. Versione grafica modificabile: `docs/schema-agenti.drawio` (apribile su app.diagrams.net), con due pagine: flusso di lavoro e organigramma.
 
 ### Matrice agenti × brand
 
