@@ -11,7 +11,7 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 ## Mappa del repository
 | Cartella | Contenuto |
 |---|---|
-| `brand/` | Brand brief, tone of voice, audience, canali, regole di compliance. **Leggere sempre prima di scrivere contenuti.** |
+| `brand/` | Brand brief, tone of voice, audience, canali, compliance e `brand/profili/` (IESS, iRES, Performa: ogni agente carica il profilo del brand su cui lavora). **Leggere sempre prima di scrivere contenuti.** |
 | `competitors/competitors.yaml` | Registro concorrenti monitorati (siti, social, tier). |
 | `strategy/` | Strategia di comunicazione, pilastri di contenuto, KPI. |
 | `workflows/` | Runbook del ciclo settimanale e mensile. |

@@ -32,6 +32,9 @@ Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 | risultati | monitora i risultati: interazioni e risposte, lead per la rete vendita, metriche, report KPI mensile |
 | sito-cataloghi-packaging | sito e SEO, cataloghi e media kit, packaging ed etichette (brief e checklist regolatoria) |
 
+## Proposta di crescita del team e stack strumenti
+Vedi `docs/team-agenti-e-strumenti.md`: valutazione (6 agenti oggi, 10-12 a regime in tre fasi), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
+
 ## Automazione
 Il run settimanale può essere lanciato a mano (`/run-settimanale`) o da una **attività pianificata** di Claude Code (lunedì mattina) che esegue il ciclo, committa in `output/` e fa push. Vedi `workflows/settimanale.md`.
 
