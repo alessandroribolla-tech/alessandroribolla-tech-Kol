@@ -5,35 +5,43 @@ Ogni settimana gli agenti monitorano la concorrenza, propongono il piano editori
 
 ## Avvio rapido
 ```
-/run-settimanale                 # ciclo completo: il capo decide, i cinque specialisti eseguono
-/report-concorrenza [--tutti]    # solo monitoraggio concorrenti
-/comunicazione                   # piano editoriale, messaggi, sponsorizzate e remarketing
-/contenuti [--newsletter] [--grafiche]  # post, newsletter, script video, grafiche
+/run-settimanale                 # ciclo completo: il capo decide, i nove specialisti eseguono
+/report-concorrenza [--tutti]    # monitoraggio concorrenti
 /risultati                       # interazioni, risposte, lead, metriche
+/education                       # agenda corsi, promozione, KOL, fiere
+/comunicazione                   # piano editoriale, messaggi, brief campagne
+/performance [--mensile]         # sponsorizzate, remarketing, budget, SEO, tracciamento
+/internazionale [--newsletter|--kit X]  # versioni in lingua, newsletter e kit distributori
+/contenuti [--newsletter] [--grafiche]  # post, newsletter, script video, grafiche
 /sito-cataloghi-packaging <richiesta>   # articolo, landing, catalogo, packaging
-/report-mensile                  # KPI del mese e revisione strategia
-/pubblica [analytics]            # programma su Postiz i post approvati / legge analytics
+/compliance [file]               # verifica indipendente e registro claim
+/report-mensile                  # KPI, campagne, revisione strategia
+/pubblica [analytics]            # Postiz: programma i post approvati / legge analytics
 /nuovo-competitor <nome>         # aggiunge un concorrente
 ```
 Stato approvazioni: `scripts/stato.sh [YYYY-Wnn]`.
 
 ## Struttura
 - `CLAUDE.md` regole per gli agenti · `brand/` brief, tono, audience, canali, compliance · `competitors/` registro · `strategy/` strategia, pilastri, KPI
-- `.claude/agents/` 6 agenti · `.claude/skills/` 9 comandi · `templates/` modelli · `workflows/` runbook
+- `.claude/agents/` 10 agenti · `.claude/skills/` 13 comandi · `templates/` modelli · `workflows/` runbook
 - `inputs/` materiali dall'azienda · `output/` deliverable per settimana ISO
 
-## I sei agenti
-| Agente | Compito |
-|---|---|
-| **capo-marketing** | decide: priorità, brief, delega, controllo qualità e compliance, decisioni, riepilogo |
-| monitor-concorrenza | monitora ~75 concorrenti in 3 tier per gruppo e area (siti, LinkedIn, YouTube, news, Ad Library) |
-| comunicazione | crea la comunicazione: strategia, messaggi chiave, piano editoriale, campagne, sponsorizzate e remarketing |
-| contenuti | crea i contenuti: post, caroselli, script video, newsletter IT/EN, grafiche (Canva) |
-| risultati | monitora i risultati: interazioni e risposte, lead per la rete vendita, metriche, report KPI mensile |
-| sito-cataloghi-packaging | sito e SEO, cataloghi e media kit, packaging ed etichette (brief e checklist regolatoria) |
+## I dieci agenti
+| Fase | Agente | Compito |
+|---|---|---|
+| decide | **capo-marketing** | priorità, brief, delega, decisioni, riepilogo, registro decisioni |
+| osservare | monitor-concorrenza | ~75 concorrenti in 3 tier per gruppo e area |
+| osservare | risultati | interazioni e risposte, lead, metriche, KPI mensile |
+| osservare | education-kol | agenda corsi, promozione, landing e DEM, recap, KOL, fiere e congressi |
+| progettare | comunicazione | strategia, messaggi chiave, piano editoriale, brief campagne e newsletter |
+| progettare | performance-seo-ads | sponsorizzate, remarketing, budget, SEO, tracciamento, report campagne |
+| progettare | internazionale-distributori | versioni EN/ES/DE/FR/PL, newsletter e kit distributori, mercati esteri |
+| produrre | contenuti | post, caroselli, script video, newsletter IT, grafiche |
+| produrre | sito-cataloghi-packaging | sito, cataloghi e media kit, packaging ed etichette |
+| controllare | compliance-regolatorio | gate indipendente MDR/GDPR/policy, registro claim approvati |
 
 ## Proposta di crescita del team e stack strumenti
-Vedi `docs/team-agenti-e-strumenti.md`: valutazione (6 agenti oggi, 10-12 a regime in tre fasi), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
+Vedi `docs/team-agenti-e-strumenti.md`: valutazione (10 agenti attivi, fase 3 da attivare a regime), schema agenti per IESS Group, iRES e Performa, elenco completo di skill, plugin e connettori con priorità, roadmap di attivazione.
 
 ## Automazione
 Il run settimanale può essere lanciato a mano (`/run-settimanale`) o da una **attività pianificata** di Claude Code (lunedì mattina) che esegue il ciclo, committa in `output/` e fa push. Vedi `workflows/settimanale.md`.
