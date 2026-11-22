@@ -36,7 +36,7 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 - Commit alla fine di ogni run: `marketing(<settimana>): <cosa>`.
 
 ## Strumenti disponibili e limiti
-- Ricerca/lettura web: WebSearch, WebFetch, Firecrawl (siti, LinkedIn pubblico, YouTube, news di settore come Odontoiatria33, Infodent, Dental Tribune).
+- Ricerca/lettura web: WebSearch, WebFetch e, quando il connettore è presente nella sessione, Firecrawl (siti, LinkedIn pubblico, YouTube, news di settore come Odontoiatria33, Infodent, Dental Tribune).
 - Instagram e Facebook dei concorrenti: spesso non leggibili via scraping. Usare la ricerca web, le pagine "news" dei siti, YouTube e LinkedIn; per i dati dei propri canali usare gli export in `inputs/interazioni/` oppure Postiz (`/pubblica` con `analytics`).
 - Creatività: Canva MCP (se collegato) o brief visivi per il grafico in `templates/post-social.md`.
 - Pubblicazione: CLI Postiz (opzionale, vedi skill `pubblica`). Senza Postiz, i post approvati si copiano a mano in Meta Business Suite / LinkedIn.
