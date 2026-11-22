@@ -4,7 +4,7 @@
 
 | Tier | Chi | Cadenza |
 |---|---|---|
-| 1 | concorrenti diretti sul mercato italiano e Swiss made (Sweden & Martina, JDentalCare, B&B, Resista, Prodent, BTK, Biomax, BioSAFin, AoN, IDI, MegaGen, Ziacom, Straumann, Thommen, TRI) | settimanale, completo |
+| 1 | concorrenti diretti sul mercato italiano e Swiss made (Sweden & Martina, JDentalCare, B&B, Resista, Prodent, BTK, Biomax, BioSAFin, AoN, IDI, Oxy Implant, MegaGen, Ziacom, Straumann, Thommen, TRI) | settimanale, completo |
 | 2 | gruppi globali e brand con presenza in Italia (Nobel, Dentsply, ZimVie, Camlog, BioHorizons, Neodent, Anthogyr, NUVO, Osstem, Dentium, Adin, MIS, Biotech Dental, TBR, SGS, Implant Swiss, ROOTT, IML…) | settimanale, sintetico (news) |
 | 3 | osservati: Turchia, altri coreani e israeliani, Spagna, Germania, zirconia, biomateriali | mensile |
 

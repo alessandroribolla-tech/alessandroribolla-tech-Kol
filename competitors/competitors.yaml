@@ -494,10 +494,12 @@ concorrenti:
     gruppo: Biomec
     area: Italia
     paese: IT
-    tier: 2
-    origine: agente
+    tier: 1
+    origine: utente
     sito: https://www.oxyimplant.com
-    perche: Colico (LC), implantologia e protesica
+    linkedin: https://www.linkedin.com/company/oxy-implant
+    instagram: https://www.instagram.com/oxyimplant/
+    perche: Colico (LC), implantologia e protesica; indicato dalla direzione come concorrente diretto
     verificato: false
   - id: c-tech
     nome: C-Tech Implant
