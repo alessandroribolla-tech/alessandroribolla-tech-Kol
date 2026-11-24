@@ -1,6 +1,6 @@
 ---
 titolo: Registro dei claim approvati
-aggiornato: 2026-11-22
+aggiornato: 2026-11-24
 nota: Nessun claim passa ad "approvato" senza indicazione esplicita del regolatorio o della direzione scientifica. L'agente compliance-regolatorio propone; le persone validano.
 ---
 
@@ -19,6 +19,12 @@ Stati: `approvato` (usabile), `in_verifica` (in attesa del regolatorio), `propos
 | C-007 | Board scientifico internazionale iRES presieduto dal Prof. Massimo Simion | | iRES | professionisti | sito ires.dental | in_verifica | | | verificare che la carica sia attuale |
 | C-008 | Oltre 40 anni di know-how in implantologia | 40 anni di esperienza | Geass / IESS | tutti | storia aziendale [documento] | in_verifica | | | |
 | C-009 | Centro di fresaggio attivo dal 2015 | | Performa | professionisti | sito iess.dental | in_verifica | | | |
+| C-010 | Sistema di gestione qualità certificato ISO 13485 (iRES SAGL, Mendrisio) | ISO 13485 | iRES | professionisti | certificato ISO 13485 [da allegare in inputs/materiali] | proposto | | 2026-11-24 | proposto da compliance W48; origine: post Mendrisio IT/EN |
+| C-011 | Tracciabilità di ogni lotto dalla materia prima al confezionamento | ogni lotto tracciato | iRES | professionisti | procedure qualità, sistema UDI [documento da allegare] | proposto | | 2026-11-24 | proposto da compliance W48 |
+| C-012 | ShapeOne disponibile nelle versioni B, T e Tn | versioni B/T/Tn | iRES ShapeOne | professionisti | catalogo iRES [verificare nomenclatura attuale] | proposto | | 2026-11-24 | descrittivo; proposto da compliance W48 |
+| C-013 | Performa: protesi personalizzata CAD-CAM in flusso digitale con componentistica originale per gli impianti del gruppo | protesi CAD-CAM su impianti del gruppo | Performa | professionisti | sito performa.dental [verificare] | proposto | | 2026-11-24 | non indicare tempi/materiali finché non forniti |
+| C-014 | SmartGuide: sistema di chirurgia guidata iRES | chirurgia guidata SmartGuide | iRES SmartGuide | professionisti | sito ires.dental, IFU [da allegare] | proposto | | 2026-11-24 | solo descrittivo, nessun dato di accuratezza |
+| C-015 | IESS Group nasce nel 2021 dall'unione di Geass e iRES; Multysystem dal 2022; tre sedi: Pozzuolo del Friuli, Lissone, Mendrisio | tre sedi | IESS Group | tutti | sito iess.dental (rilevazione 2026-11-22) | proposto | | 2026-11-24 | istituzionale |
 
 ## Claim vietati (promemoria)
 - Promesse di risultato: "dura per sempre", "zero rigetto", "garantito", "senza rischi".
