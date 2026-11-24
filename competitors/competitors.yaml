@@ -9,7 +9,8 @@
 # Per aggiungere: /nuovo-competitor <nome>
 
 meta:
-  aggiornato: 2026-11-22
+  aggiornato: 2026-11-24
+  nota_ultimo_run: "2026-W48: siti dei concorrenti e testate non raggiungibili dalla sessione (Firecrawl senza crediti, WebFetch bloccato); nessun URL verificato direttamente, tutti i 'verificato: false' restano tali. Note puntuali nei campi 'nota'."
   cadenza: settimanale
   fonti_settore:
     - { nome: Odontoiatria33, url: https://www.odontoiatria33.it/aziende/ }
@@ -444,6 +445,7 @@ concorrenti:
     origine: utente
     sito: null
     perche: indicato dalla direzione; in rete risulta solo una Kalodont Srl a Roma senza sito pubblico. DA VERIFICARE con la direzione (nome esatto, sito, prodotti)
+    nota: "2026-W48: ricerca web ripetuta, unico riscontro Kalodont Srl, Roma, P.IVA 01452041005 (registroaziende.it) senza attività descritta; nessun produttore di impianti con questo nome. Da chiarire con la direzione."
     verificato: false
   - id: biosafin
     nome: BioSAFin (Winsix)
@@ -488,6 +490,7 @@ concorrenti:
     origine: agente
     sito: https://www.dentaltech.it
     perche: Misinto (MB), produttore storico
+    nota: "2026-W48: ImplantBook 2025 (Infodent) indica il sito dentaltechitalia.com; URL del registro da confermare al primo accesso diretto."
     verificato: false
   - id: oxy-implant
     nome: Oxy Implant (Biomec)
@@ -596,8 +599,11 @@ concorrenti:
     tier: 1
     origine: utente
     sito: https://www.thommenmedical.com
+    news: https://www.thommenmedical.com/it/chi-siamo/novita
+    eventi: https://www.thommenmedical.com/it-it/facolta-dentale/formazione-eventi/eventi-attuali
     linkedin: https://www.linkedin.com/company/thommen-medical
     perche: concorrente Swiss made diretto di iRES, Grenchen
+    nota: "2026-W48: pagine news/eventi IT individuate tramite ricerca (indicizzate, non aperte direttamente)."
     verificato: false
   - id: tri-dental
     nome: TRI Dental Implants
@@ -610,6 +616,7 @@ concorrenti:
     linkedin: https://www.linkedin.com/company/tri-dental-implants
     instagram: https://www.instagram.com/tri_dental_implants/
     perche: Hünenberg, Swiss made value, marketing digitale molto curato
+    nota: "2026-W48: fonti citano i domini tri-implants.swiss e tri.swiss; dominio ufficiale da confermare. Geistlich Pharma investitore di minoranza (09/2025) e distributore esclusivo in Australia (04/2026)."
     verificato: false
   - id: sgs-dental
     nome: SGS Dental Implant System
@@ -756,6 +763,7 @@ concorrenti:
     linkedin: https://www.linkedin.com/company/ziacom
     instagram: https://www.instagram.com/ziacom_medical/
     perche: nel 2025 ha acquisito due aziende italiane, espansione diretta sul nostro mercato
+    nota: "2026-W48: la ricerca web non conferma le acquisizioni italiane 2025 (trovato solo ingresso di Suma Capital al 40%, data n.d.); motivazione del tier 1 da documentare con fonte."
     verificato: false
   - id: bti
     nome: BTI Biotechnology Institute
