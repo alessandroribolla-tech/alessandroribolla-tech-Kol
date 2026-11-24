@@ -11,7 +11,7 @@
 
 ## I dieci agenti e l'ordine di esecuzione
 ```
-capo-marketing (decide: brief e priorità)
+capo-marketing = sessione principale (decide: brief e priorità; lancia gli specialisti con Agent)
 ├─ OSSERVARE   monitor-concorrenza · risultati                            (in parallelo; il capo legge i corsi IDEA)
 ├─ PROGETTARE  comunicazione → performance-seo-ads · internazionale-distributori
 ├─ PRODURRE    contenuti · sito-cataloghi-packaging · internazionale (lingue)

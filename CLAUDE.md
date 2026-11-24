@@ -25,7 +25,7 @@ Nulla viene pubblicato, inviato o speso senza approvazione umana. Gli agenti pro
 ## Chi fa cosa
 | Agente | Ruolo |
 |---|---|
-| `capo-marketing` | **Decide.** Priorità e brief della settimana, delega ai nove specialisti, legge gli esiti di compliance, decide, riepiloga, tiene il registro decisioni. Unico che propone all'approvazione umana. |
+| `capo-marketing` | **Decide.** Ruolo interpretato dalla sessione principale (non lanciabile come subagente, perché un subagente non può delegare). Priorità e brief della settimana, delega ai nove specialisti, legge gli esiti di compliance, decide, riepiloga, tiene il registro decisioni. Unico che propone all'approvazione umana. |
 | `monitor-concorrenza` | Osserva i concorrenti (`competitors/competitors.yaml`) e produce il report settimanale. |
 | `risultati` | Osserva i risultati: interazioni e bozze di risposta, lead, metriche settimanali, report KPI mensile. |
 | `comunicazione` | Progetta la comunicazione: strategia, messaggi chiave, piano editoriale (incluse fiere e congressi commerciali e la rubrica con i corsi IDEA pubblicabili), brief campagne e newsletter, candidati al budget, slot in lingua. |
