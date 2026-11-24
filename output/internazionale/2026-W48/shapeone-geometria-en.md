@@ -9,6 +9,7 @@ lingua: EN
 settimana: 2026-W48
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 origine_it: output/post-social/2026-W48/mar-ires-instagram-shapeone-geometria.md
 mercati: tutti i Paesi iRES (inputs/distributori.md vuoto, nessuna priorità dichiarata)
 prodotto_da: capo-marketing in veste di internazionale-distributori (delega Agent non disponibile in sessione)
@@ -69,3 +70,14 @@ Professional target stated; descriptive geometry only (C-005); no superlatives; 
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto **con riserva**, segue la decisione sulla versione IT; terminologia da allineare al catalogo EN.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** iRES · Instagram/Facebook/LinkedIn iRES + kit distributori, "tutti i Paesi iRES" · professionale dichiarato · EN.
+- **Esito:** `da_verificare` (confermato).
+- **Coerenza con la versione IT:** fedele; "tapered" per "conico" e "self-tapping" per "autofilettante" corretti; "self-centring cutting flutes" da allineare al catalogo EN. Stessi rilievi della versione IT: C-005 in_verifica (confronto parola per parola con IFU EN), C-012 proposto, #SwissMade = C-002 in_verifica (**non citato nel self-check**).
+- **Rilievo specifico EN:** "Available in the B, T and Tn versions" in un post destinato a tutti i mercati implica disponibilità e registrazione in ogni Paese: confermare per mercato o indicare ai distributori di adattare ("the range includes").
+- **Requisiti Paese noti (da verificare con il regolatorio, non parere legale):** CH: ODmed art. 69, pubblicità al pubblico non ammessa per dispositivi destinati esclusivamente ai professionisti (l'account iRES è svizzero) · DE: HWG §§ 3 e 11 (divieti nella pubblicità al pubblico di DM; pubblicità ai professionisti ammessa), UWG § 5 · FR: CSP art. L5213-1 ss.: pubblicità al pubblico vietata per i DM rimborsati e per le classi IIb/III elencate per arrêté; pubblicità ai professionisti di alcune classi soggetta ad autorizzazione preventiva ANSM: verificare se gli impianti dentali rientrano · PL: legge sui dispositivi medici 2022 (art. 54-61): avvertenza obbligatoria nella pubblicità al pubblico, vietata per dispositivi destinati esclusivamente ai professionisti · ES: RD 192/2023, pubblicità al pubblico vietata per dispositivi a uso professionale · mercati extra-UE: regole locali a carico del distributore, da scrivere nel kit.
+- **Checklist 10 punti:** 1 ok · 2 vedi sopra · 3 ok · 4 ok · 5 n.a. · 6 ok · 7 n.a. · 8 vedi sponsorizzate se promosso · 9 ok · 10 ok.
+- **Correzione proposta:** nessuna sul copy; nota per i distributori: non promuovere al pubblico nei Paesi sopra; "available" solo dove il prodotto è registrato; rimuovere #SwissMade se C-002 non validato.
+- **Claim usati (id):** C-002 (hashtag), C-005, C-012 (proposto).

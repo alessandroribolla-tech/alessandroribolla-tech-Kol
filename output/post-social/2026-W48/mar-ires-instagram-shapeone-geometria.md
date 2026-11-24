@@ -10,6 +10,7 @@ lingua: IT
 settimana: 2026-W48
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 postiz_id:
 riuso: Facebook iRES (stesso copy, stesso carosello)
 versione_en: output/internazionale/2026-W48/shapeone-geometria-en.md
@@ -75,3 +76,13 @@ B: Cinque dettagli che descrivono ShapeOne®. Nessun aggettivo.
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto **con riserva**: descrizione tecnica senza prestazioni (C-005). Condizioni: confronto con IFU, conferma versioni B/T/Tn, render forniti. Candidato alla sponsorizzazione Meta; versione EN collegata.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** iRES · Instagram (+ riuso Facebook) iRES, canali pubblici raggiungibili da pazienti · professionale dichiarato in apertura, chiusura, copertina e ultima slide · IT.
+- **Esito:** `da_verificare` (confermato).
+- **Checklist 10 punti:** 1 ok · 2 C-005 in_verifica (confronto parola per parola con IFU/catalogo: "autofilettante" e "autocentranti" sono attributi funzionali, non solo geometrici, e devono coincidere con la dicitura ufficiale); C-012 proposto (versioni B/T/Tn); hashtag #SwissMade = claim di origine C-002 in_verifica, **non citato nell'autoverifica** · 3 ok · 4 ok (render, nessuna immagine clinica) · 5 n.a. · 6 ok · 7 n.a. · 8 contenuto di prodotto su canale pubblico: ammesso perché rivolto esplicitamente ai professionisti e senza invito all'acquisto; "Scopri la linea" non è invito all'acquisto, mantenere · 9 ok · 10 ok.
+- **Passaggi citati:** risposta pronta 2 "La documentazione scientifica è disponibile su richiesta": verificare che esista documentazione scientifica consegnabile su ShapeOne® prima di prometterne l'invio; in mancanza, promettere "schede tecniche e istruzioni per l'uso".
+- **Correzione proposta:** nessuna sul copy. Se l'IFU non riporta "autocentranti" o "autofilettante", eliminare la voce dalla slide (non riformularla). Se C-002 resta in_verifica alla data di pubblicazione, togliere #SwissMade.
+- **Fonti da aggiungere:** IFU e catalogo ShapeOne® in `inputs/materiali/` (C-005, C-012).
+- **Claim usati (id):** C-002 (hashtag), C-005, C-012 (proposto).

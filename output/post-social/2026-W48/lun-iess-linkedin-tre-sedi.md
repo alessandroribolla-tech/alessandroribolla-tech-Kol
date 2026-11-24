@@ -10,6 +10,7 @@ lingua: IT
 settimana: 2026-W48
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 postiz_id:
 prodotto_da: capo-marketing in veste di contenuti (delega Agent non disponibile in sessione)
 ---
@@ -70,3 +71,13 @@ B: Pozzuolo del Friuli, Lissone, Mendrisio: da dove parte il lavoro di IESS Grou
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto all'approvazione **con riserva**: contenuto istituzionale a basso rischio. Condizioni: validazione di C-001/C-008 oppure rimozione di "da oltre 40 anni"; grafica mappa (non servono foto). Candidato alla sponsorizzazione LinkedIn.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente dal ruolo che ha prodotto il contenuto). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** IESS Group · LinkedIn pagina IESS · professionale (disclaimer in chiusura) · IT.
+- **Esito:** `da_verificare` (confermato).
+- **Checklist 10 punti:** 1 ok · 2 claim senza fonte validata: C-001 (in_verifica), C-002 (in_verifica, "produzione Swiss made a Mendrisio": **non citato nell'autoverifica**), C-008 (in_verifica), C-009 (in_verifica), C-015 (proposto), C-016 (proposto, nuovo: "un solo interlocutore dall'impianto alla protesi, dalla formazione all'assistenza sul territorio") · 3 ok, nessun superlativo · 4 n.a. · 5 n.a. · 6 "iRES" senza ® alla prima occorrenza nel copy: la checklist elenca iRES® tra i marchi; o si aggiunge ® o il regolatorio conferma che il nome societario ne è esente [verificare registrazioni] · 7 n.a. · 8 candidato a sponsorizzazione: vedi rilievi in `output/sponsorizzate/2026-W48.md` · 9 ok · 10 ok (nessun nominativo).
+- **Passaggi citati:** "iRES, produzione Swiss made a Mendrisio" (C-002); "Geass, implantologia italiana da oltre 40 anni" (C-008); "dalla formazione all'assistenza sul territorio": la formazione è di IDEA, separata dal marketing: ammissibile come descrizione istituzionale, non deve diventare promessa di corsi. Risposta pronta 2 "Gli impianti iRES® sono prodotti a Mendrisio (CH)" afferma che tutta la produzione è a Mendrisio: da confermare prodotto per prodotto (criteri Swissness, C-002).
+- **Correzione proposta:** nessuna riscrittura. Se C-001/C-008 non validati entro il 30/11: pubblicare senza "da oltre 40 anni" e senza il claim istituzionale (come già deciso). Aggiungere ® a iRES alla prima occorrenza se il regolatorio lo richiede. Risposta pronta 2: limitarla a "La produzione iRES® è a Mendrisio (CH)" finché la copertura per prodotto non è confermata.
+- **Fonti da aggiungere:** documento storico Geass (C-008); conferma di date e sedi (C-015); criteri Swissness per i prodotti (C-002).
+- **Claim usati (id):** C-001, C-002, C-008, C-009, C-015 (proposto), C-016 (proposto).

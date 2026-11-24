@@ -7,6 +7,7 @@ slug: chirurgia-guidata-implantologia
 lingua: IT
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 prodotto_da: capo-marketing in veste di sito-cataloghi-packaging (delega Agent non disponibile in sessione)
 brief_seo: output/performance/2026-W48-seo.md
 ---
@@ -87,3 +88,13 @@ Pubblico professionale dichiarato in apertura e in chiusura; nessun claim presta
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto **con riserva**: non pubblicare finché mancano le fonti bibliografiche e la scheda SmartGuide®. Il testo generale può essere rivisto dal board scientifico.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** iRES · sito it.ires.dental, sezione news (pagina pubblica indicizzata, raggiungibile anche da pazienti) · professionale dichiarato in apertura e chiusura · IT.
+- **Esito:** `da_verificare` (confermato).
+- **Checklist 10 punti:** 1 ok · 2 "L'obiettivo è ridurre lo scarto tra la posizione pianificata e quella reale ... rispetto a una procedura a mano libera" è un'affermazione prestazionale sulla categoria (chirurgia guidata) senza fonte → C-018 proposto (direzione scientifica); SmartGuide®: C-014 proposto, ma il copy dice "per gli impianti del gruppo" e **estende il claim oltre il testo registrato** (compatibilità con impianti Geass non verificata) → limitare a "per gli impianti iRES®" finché non confermato; FAQ 3 "facilita la coerenza tra posizione implantare e progetto protesico": affermazione generale condizionata, accettabile, meglio con fonte · 3 ok · 4 ok (diagramma, nessuna immagine clinica) · 5 n.a.; se il board scientifico rivede il testo, indicarlo · 6 ® ok; SmartGuide® [verificare registrazione] · 7 n.a. · 8 candidato a Google Search e remarketing "lettori articolo" (vedi sponsorizzate) · 9 ok · 10 ok.
+- **Passaggi citati:** CTA "Richiedi la documentazione SmartGuide® all'agente di zona → form": il form deve avere informativa privacy con finalità commerciale/contatto da agente e, se i dati vanno al CRM, base giuridica e conservazione definite. Pubblico anche laico: il paragrafo SmartGuide® resta descrittivo e senza prestazioni, quindi ammissibile; non aggiungere prezzi, offerte o "richiedi un preventivo".
+- **Correzione proposta:** nessuna riscrittura. Prima della pubblicazione: fonte peer-reviewed per la frase sull'accuratezza o riformulazione neutra già proposta dal capo; "impianti del gruppo" → "impianti iRES®" o conferma compatibilità; scheda SmartGuide® dal regolatorio.
+- **Fonti da aggiungere:** revisione sistematica sull'accuratezza (C-018); IFU SmartGuide® (C-014); elenco impianti compatibili.
+- **Claim usati (id):** C-014 (proposto), C-018 (proposto).

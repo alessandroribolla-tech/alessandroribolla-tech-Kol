@@ -10,6 +10,7 @@ lingua: IT
 settimana: 2026-W48
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 postiz_id:
 brand_citati: Performa
 prodotto_da: capo-marketing in veste di contenuti (delega Agent non disponibile in sessione)
@@ -67,3 +68,14 @@ B: Cosa fa un centro di fresaggio dentro un gruppo implantare? Il caso Performa.
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto **con riserva** (C-009). Condizione: Performa conferma il testo; le risposte pronte 1 e 3 restano solo private finché mancano i dati.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** IESS Group (Performa citata) · LinkedIn · professionale (laboratori, studi) · IT.
+- **Esito:** `da_verificare` (confermato).
+- **Checklist 10 punti:** 1 ok · 2 C-009 in_verifica; C-013 proposto ("protesi personalizzata CAD-CAM ... componentistica originale"); C-016 proposto ("un solo interlocutore", **non citato nell'autoverifica**). "Componentistica originale" va definita (componenti prodotti dal gruppo) e confermata per tutte le linee (Geass e iRES) · 3 ok ("una filiera che resta dentro il gruppo" è descrittivo) · 4 n.a. · 5 n.a. · 6 "Performa" senza ®: verificare se è marchio registrato · 7 n.a. · 8 n.a. · 9 ok · 10 ok.
+- **Nota MDR:** le protesi personalizzate sono dispositivi su misura (MDR art. 52(8), Allegato XIII). Il regolatorio deve confermare il ruolo di Performa (fabbricante di dispositivi su misura o fornitore di lavorazioni per il laboratorio): incide su cosa si può dichiarare in "protesi personalizzata" e "componentistica originale". La comunicazione a laboratori e studi è ammessa.
+- **Passaggi citati:** risposta pronta 3 "ti rispondiamo in privato con i tempi indicativi" promette un dato che nel sistema non esiste (`[DATO MANCANTE]`): l'agente deve rispondere n.d. o con dato fornito da Performa. Concordo: risposte 1 e 3 non pubblicabili.
+- **Correzione proposta:** nessuna sul copy. Prima della pubblicazione: conferma scritta di Performa su "componentistica originale" e "flusso digitale".
+- **Fonti da aggiungere:** scheda servizi Performa (materiali, librerie, tempi) in `inputs/materiali/`; conferma 2015 (C-009).
+- **Claim usati (id):** C-009, C-013 (proposto), C-016 (proposto).

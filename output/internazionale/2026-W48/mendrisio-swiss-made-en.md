@@ -10,6 +10,7 @@ lingua: EN
 settimana: 2026-W48
 stato: bozza
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 origine_it: output/post-social/2026-W48/gio-ires-instagram-mendrisio-swiss-made.md
 mercati: tutti i Paesi iRES (inputs/distributori.md vuoto)
 prodotto_da: capo-marketing in veste di internazionale-distributori (delega Agent non disponibile in sessione)
@@ -65,3 +66,13 @@ Professional target; C-002 pending; ISO 13485 and material to document; people f
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: bozza`. **Rimandato** come la versione IT; in più serve la conferma Swissness per i mercati esteri.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** iRES · Instagram/Facebook/LinkedIn iRES, tutti i Paesi · professionale dichiarato · EN.
+- **Esito:** `da_verificare` (confermato; `bloccato` se diffuso con "ISO 13485 certified" senza certificato o con "Swiss made" non confermato per i prodotti ripresi).
+- **Coerenza con la versione IT:** fedele. Stessi rilievi: C-002 in_verifica; C-010 proposto senza certificato in `inputs/materiali/`; C-011 proposto, con la variante "from the titanium bar" non coperta dal testo registrato → C-017 proposto; "This is where iRES® implants are made" = tutta la produzione a Mendrisio, da confermare per prodotto; liberatorie assenti.
+- **Rilievi specifici per i mercati esteri:** "Swiss made" ricade nella normativa svizzera Swissness (LPM art. 48c e ordinanza "Swiss made": per i prodotti industriali almeno il 60 % dei costi di fabbricazione e la fase essenziale in Svizzera), applicabile anche quando il claim è usato all'estero; la tracciabilità per lotto è obbligo MDR: presentarla come plus è a rischio in Germania (UWG § 5, "Werbung mit Selbstverständlichkeiten") e in generale come pubblicità di un requisito obbligatorio: ammessa solo come descrizione del processo; "ISO 13485 certified quality management system" è la dicitura corretta (mai "ISO certified implants"). Per i vincoli Paese sulla pubblicità al pubblico (CH, DE, FR, PL, ES) vedi `shapeone-geometria-en.md`.
+- **Checklist 10 punti:** 1 ok · 2 vedi sopra · 3 ok · 4 persone riprese senza liberatoria · 5 n.a. · 6 ok · 7 n.a. · 8 n.a. · 9 ok · 10 liberatorie e informativa GDPR per i dipendenti.
+- **Correzione proposta:** identica alla versione IT; la nota per i distributori sul "Swiss made" è corretta e va mantenuta; aggiungere: non usare la tracciabilità come argomento di vendita.
+- **Claim usati (id):** C-002, C-010 (proposto), C-011 (proposto, consigliato il respingimento come claim distintivo), C-017 (proposto).

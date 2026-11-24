@@ -15,3 +15,5 @@ Registro cumulativo: una riga per decisione. Le decisioni propongono all'approva
 | 2026-11-24 | 2026-W48 | Versioni in lingua limitate a 2 EN; ES/DE/FR/PL rinviate | vincolo del run; `inputs/distributori.md` vuoto | `output/internazionale/2026-W48/` |
 | 2026-11-24 | 2026-W48 | Proposti al registro i claim C-010…C-015 (stato `proposto`); richiesta al regolatorio di validare C-001…C-009 | nessun claim approvato: senza validazione nulla passa ad `approvato` | `brand/claim-approvati.md` |
 | 2026-11-24 | 2026-W48 | Priorità W49: run con specialisti reali, baseline concorrenza con Firecrawl, verifica compliance indipendente dei file W48 | i limiti di questo run vanno chiusi prima di pubblicare | `output/riepilogo/2026-W48.md` |
+
+| 2026-11-24 | W48 | Post "Perché parliamo solo ai professionisti" retrocesso a bozza; pubblici di remarketing da ridisegnare su segnali professionali; #SwissMade rimosso finché C-002 non è validato; C-011 proposto per il respingimento; presidio Lombardia in agenda W49; fiere 2027 alla direzione | revisione compliance indipendente e report concorrenza dello specialista |

@@ -10,6 +10,7 @@ lingua: IT
 settimana: 2026-W48
 stato: bozza
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 postiz_id:
 riuso: Facebook iRES (stesso video/foto)
 versione_en: output/internazionale/2026-W48/mendrisio-swiss-made-en.md
@@ -72,3 +73,13 @@ B: Dalla barra di titanio al confezionamento: dentro la produzione iRES® a Mend
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: bozza`. **Rimandato.** Mancano riprese con liberatoria, certificato ISO 13485 e conferma "Swiss made" per prodotto. Si ripropone appena arrivano i materiali; nel frattempo nessuna versione ridotta.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** iRES · Instagram Reel (+ Facebook), canali pubblici · professionale dichiarato · IT.
+- **Esito:** `da_verificare` (confermato; diventa `bloccato` se pubblicato con "ISO 13485" senza certificato in `inputs/materiali/` o con "Swiss made" non confermato per i prodotti mostrati).
+- **Checklist 10 punti:** 1 ok · 2 C-002 in_verifica; C-010 proposto: **nessun certificato in `inputs/materiali/`** (verificato: la cartella contiene solo `lanci.md` e `.gitkeep`); C-011 proposto; la variante del copy "dalla barra di titanio al confezionamento" **non coincide** con il testo di C-011 ("dalla materia prima") e introduce un claim di materiale → C-017 proposto (titanio, grado n.d.). "Qui nascono gli impianti iRES®" afferma che tutta la produzione è a Mendrisio: Swissness (LPM art. 48c: per i prodotti industriali almeno il 60 % dei costi di fabbricazione e la fase essenziale in Svizzera) da confermare per ogni prodotto ripreso · 3 ok · 4 persone riprese: **nessuna liberatoria in `inputs/materiali/foto-video/`** (verificato, vuota) · 5 n.a. · 6 ok · 7 n.a. · 8 previsto in sequenza remarketing (vedi sponsorizzate) · 9 ok · 10 dipendenti ripresi: liberatoria scritta e informativa GDPR, procedura di rimozione in caso di revoca.
+- **Rilievo aggiuntivo (C-011):** la tracciabilità per lotto è un obbligo di legge (MDR art. 25 e 27, sistema UDI). Presentarla come elemento distintivo rischia la "pubblicità di un requisito obbligatorio" (ingannevolezza, Codice IAP art. 2; in Germania UWG § 5 "Werbung mit Selbstverständlichkeiten"). Ammessa solo come narrazione descrittiva del processo, non come vantaggio. Nel `brand/brand-brief.md` (riga 39) compare come differenziale vs low cost: da non usare in quel senso nei contenuti.
+- **Correzione proposta:** concordo con il rinvio. Condizioni per riproporre: certificato ISO 13485 (ente, numero, scadenza) in `inputs/materiali/`; conferma Swissness per i prodotti ripresi; liberatorie `_ok`; grado del titanio da IFU; formulazione della tracciabilità fornita dal regolatorio. Variante minima senza documenti: "Produzione a Mendrisio (CH)" senza ISO, titanio e tracciabilità.
+- **Fonti da aggiungere:** certificato ISO 13485; IFU (materiale); parere regolatorio Swissness.
+- **Claim usati (id):** C-002, C-010 (proposto), C-011 (proposto, consigliato il respingimento come claim distintivo), C-017 (proposto).

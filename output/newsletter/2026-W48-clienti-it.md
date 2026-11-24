@@ -8,6 +8,7 @@ invio_consigliato: 2026-12-03 10:00
 lingua: IT
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 prodotto_da: capo-marketing in veste di contenuti (delega Agent non disponibile in sessione)
 ---
 
@@ -87,3 +88,14 @@ Lista riservata ai professionisti, disclaimer presente, disiscrizione e privacy 
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto **con riserva** (settimana pari). Condizioni per l'invio: piattaforma e mittente indicati, consenso lista verificato, footer completato, claim validati o riformulati, link reali. Senza queste condizioni l'invio slitta alla prossima settimana pari (W50).
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** IESS Group (iRES, Performa) · email, lista `clienti-it` · professionale (clienti) · IT.
+- **Esito:** `da_verificare` (confermato).
+- **Checklist 10 punti:** 1 ok (lista riservata, disclaimer in preheader, corpo e footer) · 2 claim: C-001, C-002, C-005, C-008, C-009 (in_verifica) e, **non citati nell'autoverifica**, C-012 (versioni B/T/Tn), C-013 (Performa), C-015 (tre sedi, date), C-016 ("un solo interlocutore") tutti proposti · 3 "come diciamo da sempre": iperbole lieve, tollerabile · 4 n.a. · 5 n.a. · 6 iRES®, ShapeOne® ok; "Performa" senza ® [verificare] · 7 newsletter: mittente e reply-to n.d., piattaforma n.d., disiscrizione e informativa solo segnaposto, consenso lista non verificato · 8 n.a. · 9 ok · 10 ok.
+- **Rilievo GDPR aggiuntivo (punto 7):** il footer dice "sei cliente IESS Group / iRES / Geass": la lista unisce contatti di tre soggetti (IESS Group Srl, iRES SAGL svizzera, Geass). Prima dell'invio confermare: chi è il titolare del trattamento che invia; la base giuridica (consenso, oppure art. 130 c. 4 Codice privacy per clienti esistenti, limitato a prodotti/servizi analoghi a quelli acquistati); che i dati dei clienti iRES SAGL possano essere trattati da IESS Group Srl (accordo infragruppo / contitolarità, trasferimento CH-UE). Footer da completare con ragione sociale, indirizzo e P.IVA del mittente (D.Lgs. 70/2003 art. 7-9).
+- **Passaggi citati:** "eShop iRES®, riservato ai professionisti registrati": verificare che l'eShop richieda davvero una registrazione professionale, altrimenti togliere "riservato". Test A/B sul 20 % della lista: ammesso solo se il consenso è valido per tutta la lista.
+- **Correzione proposta:** nessuna sul copy; "da oltre 40 anni" da sostituire se C-008 non validato; completare footer e mittente; verificare consenso e titolarità prima del test A/B.
+- **Fonti da aggiungere:** registro consensi lista `clienti-it`; informativa privacy pubblicata; piattaforma in `brand/canali.md`.
+- **Claim usati (id):** C-001, C-002, C-005, C-008, C-009, C-012 (proposto), C-013 (proposto), C-015 (proposto), C-016 (proposto).

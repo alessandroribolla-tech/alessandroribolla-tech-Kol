@@ -10,6 +10,7 @@ lingua: IT
 settimana: 2026-W48
 stato: bozza
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 postiz_id:
 riuso: Facebook IESS
 prodotto_da: capo-marketing in veste di contenuti (delega Agent non disponibile in sessione)
@@ -67,3 +68,13 @@ B: Prima tappa di #DentroIESS: il controllo qualità a Pozzuolo del Friuli.
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: bozza`. **Rimandato.** Serve il ritratto con liberatoria e consenso al nome; serve chiarire cosa si fa a Pozzuolo. Si ripropone in W49 se arrivano foto e conferme.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** IESS Group (Geass citata) · Instagram (+ Facebook IESS), canali pubblici · professionale dichiarato · IT.
+- **Esito:** `da_verificare` (confermato).
+- **Checklist 10 punti:** 1 ok · 2 C-008 in_verifica ("oltre 40 anni"); "una delle tre sedi di IESS Group" → C-015 proposto (**non citato nell'autoverifica**); "qualità, assistenza e formazione": la formazione è di IDEA, separata: ammessa come descrizione istituzionale, non promettere corsi · 3 ok · 4 ritratto di dipendente: **nessuna liberatoria in `inputs/materiali/foto-video/`** (vuota) · 5 n.a. · 6 n.a. · 7 n.a. · 8 n.a. · 9 ok · 10 nome e ruolo in didascalia solo con consenso scritto; uso dell'immagine del dipendente a fini promozionali: informativa GDPR specifica, consenso revocabile e procedura di rimozione del post in caso di revoca.
+- **Passaggi citati:** risposta pronta 1 con `[DATO MANCANTE: attività per sede]`: non pubblicabile finché il dato non c'è. Il copy evita correttamente "produzione" per Pozzuolo.
+- **Correzione proposta:** nessuna sul copy; concordo con il rinvio. Condizioni: liberatoria `_ok` e consenso al nome archiviati; C-008 validato o "oltre 40 anni" sostituito con "dal [anno documentato]".
+- **Fonti da aggiungere:** documento storico Geass (C-008); elenco attività per sede.
+- **Claim usati (id):** C-008, C-015 (proposto).

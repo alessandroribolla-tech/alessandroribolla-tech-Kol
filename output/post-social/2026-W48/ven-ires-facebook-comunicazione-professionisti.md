@@ -10,6 +10,7 @@ lingua: IT
 settimana: 2026-W48
 stato: in_revisione
 compliance: da_verificare
+revisione_compliance: indipendente, compliance-regolatorio, 2026-11-24
 postiz_id:
 riuso: LinkedIn IESS (stesso testo, firma IESS Group)
 prodotto_da: capo-marketing in veste di contenuti (delega Agent non disponibile in sessione)
@@ -65,3 +66,17 @@ B: Una frase che leggete spesso nei nostri post. Vi spieghiamo perché c'è.
 
 ## Note del capo
 **Decisione (2026-11-24):** `stato: in_revisione`. Proposto **con riserva**: utile per posizionare correttamente i canali verso i pazienti. Condizione: rilettura del regolatorio; in mancanza, pubblicare la variante senza riferimenti a singoli articoli di legge.
+
+## Revisione compliance – Revisione indipendente
+**Revisore:** compliance-regolatorio (verifica indipendente). **Data:** 2026-11-24. Verifica operativa, non parere legale.
+- **Brand / canale / target / lingua:** iRES (riuso LinkedIn IESS) · Facebook, canale pubblico · misto, rivolto anche ai non professionisti, non promozionale · IT.
+- **Esito:** `da_verificare` (confermato, con tre rilievi sostanziali).
+- **Checklist 10 punti:** 1 ok (il post dichiara a chi parla) · 2 nessun claim di prodotto; affermazione normativa imprecisa (sotto) · 3 ok · 4 ok · 5 n.a. · 6 logo iRES® in grafica · 7 n.a. · 8 n.a. · 9 ok · 10 ok.
+- **Passaggi citati e rilievi:**
+  1. "la normativa europea e italiana sui dispositivi medici non ammette la pubblicità al pubblico di questi prodotti": **imprecisa**. Il MDR (europeo) non vieta la pubblicità al pubblico: l'art. 7 vieta i claim fuorvianti. Il divieto per i dispositivi usati solo con l'assistenza di un professionista è **nazionale** (Italia: D.Lgs. 137/2023; art. 21 D.Lgs. 46/97 per quanto applicabile). Correzione proposta: "la normativa italiana sui dispositivi medici".
+  2. "Sui nostri siti trovate un'area informativa dedicata ai pazienti, senza prodotti e senza promozioni": **non verificata**; il brief SEO (§2, punto 6) chiede proprio l'audit delle aree paziente. Non pubblicare l'affermazione finché l'audit non conferma che iess.dental/paziente e pazienti.ires.dental sono privi di prodotti e promozioni.
+  3. Il link "Approfondimento" invita i non professionisti a leggere ma punta alla home prodotto it.ires.dental: incoerente con il messaggio (si manderebbe il pubblico su una pagina di prodotto). Correzione: puntare all'area paziente verificata.
+- **Nota Paese:** la pagina Facebook è di iRES SAGL (CH): anche la normativa svizzera (ODmed art. 69) non ammette la pubblicità al pubblico per dispositivi destinati esclusivamente ai professionisti; il messaggio del post resta coerente.
+- **Correzione proposta:** sostituire "europea e italiana" con "italiana"; sospendere la frase sull'area paziente e il link fino all'audit; nessun riferimento a singoli articoli nel copy (il post non è un parere legale).
+- **Fonti da aggiungere:** esito audit aree paziente; rilettura del regolatorio.
+- **Claim usati (id):** nessuno.
